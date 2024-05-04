@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.FormQuotaGiornaliera"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+             xmlns:viewModels="clr-namespace:Restart.ViewModels"
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+    <ScrollView>
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,0,0,0">
+
+        <Frame Padding="0,0,0,0" HeightRequest="500"  WidthRequest="400"  BackgroundColor="#121212"
+               CornerRadius="20" BorderColor="#1db954">
+            <Grid Margin="20,20,20,0" ColumnSpacing="-10" >
+
+                <Label Text="{xct:Translate Quanto}" FontSize="20" HorizontalOptions="Center" Grid.ColumnSpan="4" TextColor="White"/>
+
+                <Label Text="{xct:Translate Ieri}"  Grid.ColumnSpan="2"  Grid.Row="2" FontSize="20" HorizontalOptions="Center" TextColor="White" TextDecorations="Underline"/>
+
+                <Label Text="{xct:Translate SOMMA}" Grid.Row="3" FontSize="10"  Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="White"/>
+                <Label Text="{Binding SommaIeri}" Grid.Row="4"   FontSize="20" HorizontalOptions="Center" Grid.ColumnSpan="2" TextColor="White"/>
+
+                <Label Text="{xct:Translate Risparmio}" FontSize="10" Grid.Row="6" Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="White"/>
+                <Label Text="{Binding RimanenzaIeri}"  Grid.Row="7" FontSize="20" HorizontalOptions="Center" Grid.ColumnSpan="2" TextColor="White" />
+
+
+
+                <Label Text="{xct:Translate Oggi}" Grid.Column="2" Grid.ColumnSpan="2" Grid.Row="2" FontSize="20" HorizontalOptions="Center" TextColor="White" TextDecorations="Underline"/>
+
+                <Label Text="{xct:Translate SOMMA}" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="2" FontSize="10" HorizontalOptions="Center" TextColor="White"/>
+                <Entry Text="{Binding TettoSpesa, Mode=TwoWay}" Grid.Column="2" Grid.Row="3" Grid.RowSpan="2" FontSize="20" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.ColumnSpan="2"  TextColor="White" Keyboard="Numeric" WidthRequest="80" HorizontalTextAlignment="Center" MaxLength="5" />
+
+                <Label Text="{xct:Translate Risparmio}" FontSize="10" Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="White"/>
+                <Label Text="{Binding RimanenzaOggi}" Grid.Row="7" FontSize="20" HorizontalOptions="Center" Grid.ColumnSpan="2" Grid.Column="2" TextColor="White"/>
+
+
+                <Button Text="{xct:Translate ANNULLA}" Command="{Binding Esci}" BackgroundColor="#1db954" Grid.Row="10" Grid.ColumnSpan="2" TextColor="White" Margin="-20,0,0,0"/>
+                <Button x:Name="Salva" Text="{xct:Translate Salva}" Command="{Binding SalvaInserimento}" BackgroundColor="#1db954" Grid.Row="10" Grid.ColumnSpan="2" Grid.Column="2" TextColor="White" Margin="0,0,-20,0"/>
+
+
+            </Grid>
+
+        </Frame>
+    </FlexLayout>
+    </ScrollView>
+</pages:PopupPage>

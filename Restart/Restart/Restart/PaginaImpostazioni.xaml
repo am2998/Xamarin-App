@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="debug.PaginaImpostazioni"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:Resource ="clr-namespace:debug.Properties"
+             x:Name="Sp">
+    <ContentPage.Content>
+        <FlexLayout AlignContent="Center" Direction="Column" BackgroundColor="#121212" JustifyContent="SpaceEvenly">
+           
+                <Grid >
+                    <Label  Text="{x:Static Resource:Resources.TEMA}" Grid.ColumnSpan="7" FontSize="Title" Grid.Row ="0" VerticalOptions="Center"/>
+
+                    <Switch x:Name="TemaAttivato" Grid.Row="0" Grid.Column ="10" Grid.ColumnSpan="2"  HorizontalOptions="EndAndExpand" OnColor="#1db954" ThumbColor="black"  />
+                    <Label Grid.Row="2" Grid.ColumnSpan="8" Text="{x:Static Resource:Resources.LINGUA}" FontSize="Title" VerticalOptions="Center"/>
+                    <Picker x:Name="LinguaScelta" SelectedIndexChanged="CambiaLingua"  Grid.ColumnSpan="4" Grid.Row="2" 
+                            Grid.Column="9" HorizontalTextAlignment="Center" VerticalOptions="Center"/>
+
+
+
+
+
+
+                    <Button Grid.Row="8" Grid.Column="8" Grid.ColumnSpan="5" Text="{x:Static Resource:Resources.CONFERMA}" Clicked="ApriMainpage" BackgroundColor ="#272727"/>
+
+                </Grid>
+        
+
+        </FlexLayout>
+    </ContentPage.Content>
+</ContentPage>

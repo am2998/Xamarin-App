@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Statistiche"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+                 xmlns:Risorsa="clr-namespace:Restart.Lingue"
+                 xmlns:viewModels="clr-namespace:Restart.ViewModels"
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+                 >
+
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,30,0,0">
+
+        <Frame Padding="0,0,0,0" HeightRequest="500"  WidthRequest="350"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1db954">
+
+
+            <Grid ColumnDefinitions="5*,*" WidthRequest="300" HeightRequest="700" Margin="20,20,20,0">
+
+                <Label Text="{xct:Translate NumeroSpese}" TextColor="White" FontSize="15" Grid.ColumnSpan="5"/>
+                <Label Grid.Column="7" Grid.ColumnSpan="2" Text="{Binding NumeroSpese}" TextColor="White" FontSize="15" HorizontalOptions="EndAndExpand"/>
+
+                <Label Text="{xct:Translate SpesaMassima}" TextColor="White" FontSize="15" Grid.Row="1" Grid.ColumnSpan="5"/>
+                <Label   Grid.Column="7" Grid.ColumnSpan="2" Text="{Binding SpesaMassima}" TextColor="White" FontSize="15" Grid.Row="1" HorizontalOptions="EndAndExpand"/>
+
+                <Label Text="{xct:Translate SpeseMese}" TextColor="White" FontSize="15" Grid.Row="2" Grid.ColumnSpan="5"/>
+                <Label  Grid.Column="7" Grid.ColumnSpan="2" Text="{Binding SpeseDelMese}" TextColor="White" FontSize="15" Grid.Row="2" HorizontalOptions="EndAndExpand"/>
+
+                <Label Text="{xct:Translate SpeseMesePrecedente}" TextColor="White" FontSize="15" Grid.Row="3" Grid.ColumnSpan="5"/>
+                <Label  Grid.Column="7" Grid.ColumnSpan="2" Text="{Binding SpeseDelMesePrecedente}" TextColor="White" FontSize="15" Grid.Row="3" HorizontalOptions="EndAndExpand"/>
+
+                <Label Text="{xct:Translate SpeseSettimana}" TextColor="White" FontSize="15" Grid.Row="4" Grid.ColumnSpan="5"/>
+                <Label  Grid.Column="7" Grid.ColumnSpan="2" Text="{Binding SpeseSettimana}" TextColor="White" FontSize="15" Grid.Row="4" HorizontalOptions="EndAndExpand"/>
+
+
+                <Button Text="{xct:Translate Esci}" Clicked="Esci" TextColor="White" Grid.Row="5" VerticalOptions="EndAndExpand" Grid.ColumnSpan="9" Margin="-20,0,-20,0"/>
+              
+
+            </Grid>
+
+        </Frame>
+    </FlexLayout>
+</pages:PopupPage>

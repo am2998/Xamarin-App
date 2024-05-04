@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.CheckPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:Risorsa="clr-namespace:Restart.Lingue"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+           
+             xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit">
+    <ContentPage.Content>
+
+        <FlexLayout Direction="Column" AlignItems="Center" HeightRequest="900" WidthRequest="300" BackgroundColor="#121212">
+           
+       
+            <Frame  BackgroundColor="#1f1a24" CornerRadius="30" Margin="10,20,10,0" HeightRequest="250" WidthRequest="350" BorderColor="Black" >
+                <ListView  x:Name="ListaCommissioni" ItemsSource="{Binding ListaAccessibile}" Margin="0,10"
+                                  HasUnevenRows="True" CachingStrategy="RecycleElementAndDataTemplate" SelectionMode="None" >
+                    <ListView.Header>
+                        <Grid ColumnDefinitions="6*,4*">
+                            
+                            <Label Text="{xct:Translate SpesaDaSostenere}" BackgroundColor="#1DB954" TextColor="Black"/>
+                            <Label Text="{xct:Translate RisparmiRimanente}" BackgroundColor="#1DB954" Grid.Column="1"   TextColor="Black"/>
+
+                        </Grid>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell >
+                        
+                                    <Grid HeightRequest="40"  Padding="15" ColumnSpacing="10">
+
+                                        <input:CheckBox CheckChanged="Gestisci_Spesa" IconColor="#1db954" Type="Material"   HorizontalOptions="Center"/>
+
+
+                                        <Label Grid.Column="2" Grid.ColumnSpan="2" Text="{Binding Somma}" FontSize="Medium" 
+                                           HorizontalOptions="Center" TextColor="#1DB954" VerticalOptions="Center"/>
+
+                                        <Label Grid.Column="4" Grid.ColumnSpan="4" Text="{Binding Categoria}" FontSize="13" TextColor="#1DB954" 
+                                                          VerticalOptions="Center" HorizontalOptions="Start" />
+
+                                        <Label Grid.Column="8" Grid.ColumnSpan="2" Text="{Binding TotaleRisparmi , StringFormat='{0} €'}" FontSize="15" TextColor="#1DB954" 
+                                                         VerticalOptions="Center" HorizontalOptions="StartAndExpand"/>
+
+                                        <Label Grid.Column="11" Grid.ColumnSpan="2" Text="{Binding Differenza, StringFormat='{0} €'}" FontSize="15" TextColor="#1DB954" 
+                                                          VerticalOptions="Center"/>
+
+
+                                    </Grid>
+                        
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+
+            <ImageButton Source="add.png" Clicked="ModellaRisparmio" BackgroundColor="#121212" HeightRequest="40" Margin="10"/>
+            <!--#################################################################################################################-->
+
+            <Frame  BackgroundColor="#332940" CornerRadius="30" Margin="10,0,10,20" HeightRequest="250" WidthRequest="350" BorderColor="Black" >
+
+                <ListView x:Name="ListaRisparmi" ItemsSource="{Binding ListaRisparmiAccessibile}"  HeightRequest="400"  Margin="0,10"
+                                  HasUnevenRows="True" CachingStrategy="RecycleElementAndDataTemplate" SelectionMode="None"  >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                               
+                                    <Grid >
+
+
+                                        <input:CheckBox CheckChanged="Gestisci_Risparmio" Type="Material" IconColor="#1db954"/>
+
+
+                                        <Label Grid.Column="1" Grid.ColumnSpan="3" Text="{Binding Somma, StringFormat={x:Static Risorsa:Resources.Somma_Display}}" FontSize="Title" 
+                                           HorizontalOptions="StartAndExpand" TextColor="#1DB954"/>
+
+                                            <Label Grid.Column="6" Grid.ColumnSpan="2" Text="{Binding Nota}" FontSize="Medium" TextColor="#1DB954" VerticalOptions="Center" />
+                                      
+                                    </Grid>
+                              
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+
+
+
+
+
+            <Grid WidthRequest="400" Padding="0">
+                <Frame Grid.ColumnSpan="6" WidthRequest="200" CornerRadius="300" VerticalOptions="EndAndExpand" BackgroundColor="#1f1a24"
+                      HorizontalOptions="Start">
+
+                    <StackLayout>
+                        <Label Text="{xct:Translate TotaleSpese}" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" TextColor="#1DB954" FontSize="15"/>
+                        <Label Grid.Column="3" Grid.ColumnSpan="2" Text="{Binding TotaleSpese}" TextColor="#1DB954" FontSize="15" HorizontalOptions="CenterAndExpand" />
+                    </StackLayout>
+                </Frame>
+
+
+
+                <Frame Grid.Column="8" Grid.ColumnSpan="6" WidthRequest="200" CornerRadius="300" VerticalOptions="EndAndExpand" BackgroundColor="#332940" 
+                      HorizontalOptions="Start">
+
+                    <StackLayout>
+                     <Label Text="{xct:Translate TotaleRisparmi}" Grid.Column="1" Grid.ColumnSpan="2" HorizontalOptions="CenterAndExpand" TextColor="#1DB954" FontSize="15"/> 
+
+                    <Label  Grid.Column="1" Grid.ColumnSpan="2" Text="{Binding TotRisparmi}" TextColor="#1DB954" FontSize="15" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </Frame>
+
+            </Grid>
+        </FlexLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>

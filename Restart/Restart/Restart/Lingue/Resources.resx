@@ -1,0 +1,585 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Totale" xml:space="preserve">
+    <value>TOTALE: {0:F2} €</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Categoria</value>
+  </data>
+  <data name="Cibo" xml:space="preserve">
+    <value>Cibo</value>
+  </data>
+  <data name="Trasporti" xml:space="preserve">
+    <value>Trasporti</value>
+  </data>
+  <data name="Cultura" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="Bellezza" xml:space="preserve">
+    <value>Bellezza</value>
+  </data>
+  <data name="Regali" xml:space="preserve">
+    <value>Regali</value>
+  </data>
+  <data name="Istruzione" xml:space="preserve">
+    <value>Istruzione</value>
+  </data>
+  <data name="Divertimenti" xml:space="preserve">
+    <value>Divertimenti</value>
+  </data>
+  <data name="Altro" xml:space="preserve">
+    <value>Altro</value>
+  </data>
+  <data name="Categoria_Display" xml:space="preserve">
+    <value>● {0:F3}</value>
+  </data>
+  <data name="Somma_Display" xml:space="preserve">
+    <value>{0:F2} €</value>
+  </data>
+  <data name="Spesa_Massima" xml:space="preserve">
+    <value>Spesa più alta: {0:F2} €</value>
+  </data>
+  <data name="QUOTA" xml:space="preserve">
+    <value>QUOTA: {0:F2}</value>
+  </data>
+  <data name="FILTRA" xml:space="preserve">
+    <value>Filtra</value>
+  </data>
+  <data name="ELIMINA" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="EDITA" xml:space="preserve">
+    <value>Edita</value>
+  </data>
+  <data name="ORDINA" xml:space="preserve">
+    <value>Ordina per</value>
+  </data>
+  <data name="STATISTICHE" xml:space="preserve">
+    <value>Statistiche</value>
+  </data>
+  <data name="SOMMA" xml:space="preserve">
+    <value>Somma</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="AZZERA" xml:space="preserve">
+    <value>Azzera filtri</value>
+  </data>
+  <data name="CONFERMA" xml:space="preserve">
+    <value>Conferma</value>
+  </data>
+  <data name="ITALIANO" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="INGLESE" xml:space="preserve">
+    <value>Inglese</value>
+  </data>
+  <data name="SPAGNOLO" xml:space="preserve">
+    <value>Spagnolo</value>
+  </data>
+  <data name="TEMA" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="LINGUA" xml:space="preserve">
+    <value>Lingua</value>
+  </data>
+  <data name="INDIETRO" xml:space="preserve">
+    <value>Indietro</value>
+  </data>
+  <data name="DONAZIONE" xml:space="preserve">
+    <value>Fai una donazione</value>
+  </data>
+  <data name="IMPOSTAZIONI" xml:space="preserve">
+    <value>Impostazioni</value>
+  </data>
+  <data name="ASSISTENZA" xml:space="preserve">
+    <value>Assistenza</value>
+  </data>
+  <data name="INSERISCI_CIFRA" xml:space="preserve">
+    <value>Inserisci una cifra!</value>
+  </data>
+  <data name="INSERISCI_CATEGORIA" xml:space="preserve">
+    <value>Inserisci una categoria!</value>
+  </data>
+  <data name="SELEZIONA_SPESA" xml:space="preserve">
+    <value>Seleziona il tipo di spesa</value>
+  </data>
+  <data name="ANNULLA" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="SPESA_EFFETTUATA" xml:space="preserve">
+    <value>Spesa effettuata</value>
+  </data>
+  <data name="SPESA_DAEFFETTUARE" xml:space="preserve">
+    <value>Spesa da effettuare</value>
+  </data>
+  <data name="NON" xml:space="preserve">
+    <value>Non puoi più inserire spese!</value>
+  </data>
+  <data name="CAMBIARE" xml:space="preserve">
+    <value>Cosa vuoi cambiare?</value>
+  </data>
+  <data name="NOTA" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="NUOVA_SOMMA" xml:space="preserve">
+    <value>Nuova somma</value>
+  </data>
+  <data name="NUOVA_CATEGORIA" xml:space="preserve">
+    <value>Nuova categoria</value>
+  </data>
+  <data name="NUOVA_NOTA" xml:space="preserve">
+    <value>Modifica la nota</value>
+  </data>
+  <data name="INSERISCI_QUOTA" xml:space="preserve">
+    <value>Inserisci una quota:</value>
+  </data>
+  <data name="CIFRA_NON" xml:space="preserve">
+    <value>Cifra non corretta!</value>
+  </data>
+  <data name="QUOTA_RAGGIUNTA" xml:space="preserve">
+    <value>Hai raggiunto la tua quota!</value>
+  </data>
+  <data name="NO_DATA" xml:space="preserve">
+    <value>Non puoi inserire una data precedente ad oggi!</value>
+  </data>
+  <data name="CIFRA" xml:space="preserve">
+    <value>Cifra:</value>
+  </data>
+  <data name="COSA" xml:space="preserve">
+    <value>Cosa vuoi fare?</value>
+  </data>
+  <data name="SEGNA" xml:space="preserve">
+    <value>Segna come effettuata</value>
+  </data>
+  <data name="AGGIUNGI_RISPARMIO" xml:space="preserve">
+    <value>Aggiungi un risparmio</value>
+  </data>
+  <data name="MODIFICA_RISPARMIO" xml:space="preserve">
+    <value>Modifica il risparmio</value>
+  </data>
+  <data name="ELIMINA_SPESA" xml:space="preserve">
+    <value>Elimina la spesa</value>
+  </data>
+  <data name="INSERISCI_SRISPARMIO" xml:space="preserve">
+    <value>Inserisci la somma del tuo risparmio</value>
+  </data>
+  <data name="ELIMINA_RISPARMIO" xml:space="preserve">
+    <value>Elimina il risparmio</value>
+  </data>
+  <data name="CANCELLA" xml:space="preserve">
+    <value>Cancella</value>
+  </data>
+  <data name="CAMBIARE_ANCORA" xml:space="preserve">
+    <value>Vuoi cambiare ancora qualcosa?</value>
+  </data>
+  <data name="ModificaRisparmio" xml:space="preserve">
+    <value>Modifica il risparmio</value>
+  </data>
+  <data name="CIFRA_NON_A" xml:space="preserve">
+    <value>Cifra non ammessa!</value>
+  </data>
+  <data name="NOTA:" xml:space="preserve">
+    <value>Nota:</value>
+  </data>
+  <data name="PUOI_NOTA" xml:space="preserve">
+    <value>Puoi inserire una nota</value>
+  </data>
+  <data name="A/R" xml:space="preserve">
+    <value>Assegna / Riassegna spesa</value>
+  </data>
+  <data name="NUOVA_SOMMA_QUOTA" xml:space="preserve">
+    <value>Inserisci una nuova somma per la tua quota</value>
+  </data>
+  <data name="CIFRA_CORRETTA" xml:space="preserve">
+    <value>Inserisci una cifra corretta!</value>
+  </data>
+  <data name="GIORNI" xml:space="preserve">
+    <value>Giorni </value>
+  </data>
+  <data name="VALUTA" xml:space="preserve">
+    <value>€ </value>
+  </data>
+  <data name="DAPAGARE" xml:space="preserve">
+    <value>Da pagare</value>
+  </data>
+  <data name="INSERISCI" xml:space="preserve">
+    <value>Inserisci</value>
+  </data>
+  <data name="LISTASPESE" xml:space="preserve">
+    <value>Lista spese</value>
+  </data>
+  <data name="NESSUNASPESA" xml:space="preserve">
+    <value>Nessuna spesa</value>
+  </data>
+  <data name="Abbigliamento" xml:space="preserve">
+    <value>Abbigliamento</value>
+  </data>
+  <data name="Salute" xml:space="preserve">
+    <value>Salute</value>
+  </data>
+  <data name="SpeseIeri" xml:space="preserve">
+    <value>Spese di ieri</value>
+  </data>
+  <data name="SpeseOggi" xml:space="preserve">
+    <value>Spese di oggi</value>
+  </data>
+  <data name="AScelta" xml:space="preserve">
+    <value>A scelta</value>
+  </data>
+  <data name="GestisciQuota" xml:space="preserve">
+    <value>Gestisci la tua quota</value>
+  </data>
+  <data name="Giornaliera" xml:space="preserve">
+    <value>Giornaliera</value>
+  </data>
+  <data name="Mensile" xml:space="preserve">
+    <value>Mensile</value>
+  </data>
+  <data name="CategorieAggiuntive" xml:space="preserve">
+    <value>Categorie aggiuntive</value>
+  </data>
+  <data name="AttivaMappa" xml:space="preserve">
+    <value>Attiva la localizzazione delle spese e poi registra la spesa!</value>
+  </data>
+  <data name="RisparmiRimanente" xml:space="preserve">
+    <value>Risparmi - Rimanente</value>
+  </data>
+  <data name="SpesaDaSostenere" xml:space="preserve">
+    <value>Spesa da sostenere</value>
+  </data>
+  <data name="DataScadenza" xml:space="preserve">
+    <value>Data di scadenza</value>
+  </data>
+  <data name="Dona" xml:space="preserve">
+    <value>Dona</value>
+  </data>
+  <data name="GiorniRimanenti" xml:space="preserve">
+    <value>Giorni rimanenti</value>
+  </data>
+  <data name="Ieri" xml:space="preserve">
+    <value>Ieri</value>
+  </data>
+  <data name="Localizzazione" xml:space="preserve">
+    <value>Localizzazione</value>
+  </data>
+  <data name="MessaggioDonazione" xml:space="preserve">
+    <value>Se vuoi sostenere il progetto dona qui</value>
+  </data>
+  <data name="NumeroSpese" xml:space="preserve">
+    <value>Numero di spese</value>
+  </data>
+  <data name="Oggi" xml:space="preserve">
+    <value>Oggi</value>
+  </data>
+  <data name="Orario" xml:space="preserve">
+    <value>Orario notifica</value>
+  </data>
+  <data name="Quanto" xml:space="preserve">
+    <value>Quanto pensi di spendere oggi?</value>
+  </data>
+  <data name="QuotaLibera" xml:space="preserve">
+    <value>Quota libera</value>
+  </data>
+  <data name="QuotaMensile" xml:space="preserve">
+    <value>Quota mensile</value>
+  </data>
+  <data name="Rimanenza" xml:space="preserve">
+    <value>Rimanenza disponibile</value>
+  </data>
+  <data name="Risparmio" xml:space="preserve">
+    <value>Risparmio</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SpesaMassima" xml:space="preserve">
+    <value>Spesa massima</value>
+  </data>
+  <data name="SpeseMese" xml:space="preserve">
+    <value>Spese di questo mese</value>
+  </data>
+  <data name="SpeseMesePrecedente" xml:space="preserve">
+    <value>Spese del mese scorso</value>
+  </data>
+  <data name="SpeseSettimana" xml:space="preserve">
+    <value>Spese di questa settimana</value>
+  </data>
+  <data name="TettoSpesa" xml:space="preserve">
+    <value>Tetto di spesa</value>
+  </data>
+  <data name="TotaleRisparmi" xml:space="preserve">
+    <value>Totale risparmi:</value>
+  </data>
+  <data name="TotaleSpese" xml:space="preserve">
+    <value>Totale spese: </value>
+  </data>
+  <data name="BudgetOggi" xml:space="preserve">
+    <value>Budget di oggi</value>
+  </data>
+  <data name="Hey" xml:space="preserve">
+    <value>Hey</value>
+  </data>
+  <data name="Ricordati" xml:space="preserve">
+    <value>Ricordati di registrare le tue spese!</value>
+  </data>
+  <data name="Rimanente" xml:space="preserve">
+    <value>Rimanente</value>
+  </data>
+  <data name="TotaleQuestoMese" xml:space="preserve">
+    <value>Totale di questo mese:</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Errore</value>
+  </data>
+  <data name="MeseProssimo" xml:space="preserve">
+    <value>ci vediamo il mese prossimo!</value>
+  </data>
+  <data name="NoAttivato" xml:space="preserve">
+    <value>Devi attivare il gps!</value>
+  </data>
+  <data name="NonTrovo" xml:space="preserve">
+    <value>Non riesco a capire dove sei!</value>
+  </data>
+  <data name="NoPermessi" xml:space="preserve">
+    <value>Devi dare i permessi!</value>
+  </data>
+  <data name="NoSupporto" xml:space="preserve">
+    <value>Mi dispiace, il tuo dispositivo non supporta questa funzionalita'</value>
+  </data>
+  <data name="QuotaRaggiunta" xml:space="preserve">
+    <value>Hai raggiunto la tua quota prefissata!</value>
+  </data>
+  <data name="QuotaScaduta" xml:space="preserve">
+    <value>La quota di questo mese e'scaduta! Hai risparmiato</value>
+  </data>
+  <data name="Categorie" xml:space="preserve">
+    <value>Categorie</value>
+  </data>
+  <data name="Lingue" xml:space="preserve">
+    <value>Lingue</value>
+  </data>
+  <data name="Accedi" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="Autenticazione" xml:space="preserve">
+    <value>Autenticazione</value>
+  </data>
+  <data name="AutenticazioneFallita" xml:space="preserve">
+    <value>Autenticazione fallita</value>
+  </data>
+  <data name="ErroreAutenticazione" xml:space="preserve">
+    <value>L' autenticazione biometrica non e' disponibile o non e' configurata.</value>
+  </data>
+  <data name="FissaQuota" xml:space="preserve">
+    <value>Fissa una quota</value>
+  </data>
+  <data name="GestisciRisparmi" xml:space="preserve">
+    <value>Ma pensa anche ai tuoi risparmi!</value>
+  </data>
+  <data name="Inizia" xml:space="preserve">
+    <value>Iniziamo</value>
+  </data>
+  <data name="RegistraSpese" xml:space="preserve">
+    <value>Registra le tue spese e tienine traccia!</value>
+  </data>
+  <data name="Sblocco" xml:space="preserve">
+    <value>Sblocco con impronta</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="SpesaAssegnata" xml:space="preserve">
+    <value>Spesa assegnata</value>
+  </data>
+  <data name="AccountEsistente" xml:space="preserve">
+    <value>Esiste gia' un account associato a questa email</value>
+  </data>
+  <data name="CMaiuscolo" xml:space="preserve">
+    <value>Un carattere maiuscolo</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Il tuo codice e'</value>
+  </data>
+  <data name="ConfermaPassword" xml:space="preserve">
+    <value>Conferma Password:</value>
+  </data>
+  <data name="CredenzialiErrate" xml:space="preserve">
+    <value>Le credenziali sono errate</value>
+  </data>
+  <data name="CSpeciale" xml:space="preserve">
+    <value>Un carattere speciale</value>
+  </data>
+  <data name="DatiNonCorretti" xml:space="preserve">
+    <value>Inserisci correttamente i dati</value>
+  </data>
+  <data name="EmailValida" xml:space="preserve">
+    <value>Inserisci una email valida</value>
+  </data>
+  <data name="IndirizzoValido" xml:space="preserve">
+    <value>Inserisci un indirizzo valido</value>
+  </data>
+  <data name="InserisciCodice" xml:space="preserve">
+    <value>inserisci il codice inviato:</value>
+  </data>
+  <data name="InserisciDatiRegistrazione" xml:space="preserve">
+    <value>Inserisci i dati</value>
+  </data>
+  <data name="Invia" xml:space="preserve">
+    <value>Invia</value>
+  </data>
+  <data name="MostraPassword" xml:space="preserve">
+    <value>Mostra password</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Un numero</value>
+  </data>
+  <data name="PasswordDimenticata" xml:space="preserve">
+    <value>Password dimenticata?</value>
+  </data>
+  <data name="Registrazione" xml:space="preserve">
+    <value>Registrati</value>
+  </data>
+  <data name="RichiestePassword" xml:space="preserve">
+    <value>La password deve contenere almeno:</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="AccountNonPresente" xml:space="preserve">
+    <value>L'email non e' associata a nessun account</value>
+  </data>
+  <data name="Caratteri" xml:space="preserve">
+    <value>10-40 caratteri</value>
+  </data>
+  <data name="EmailInviata" xml:space="preserve">
+    <value>Email inviata</value>
+  </data>
+  <data name="InserisciDatiCorretti" xml:space="preserve">
+    <value>Inserisci correttamente i dati</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Esci</value>
+  </data>
+  <data name="NoConnessione" xml:space="preserve">
+    <value>Nessuna connessione</value>
+  </data>
+</root>

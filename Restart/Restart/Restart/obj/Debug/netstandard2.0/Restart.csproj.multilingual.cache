@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<ArrayOfCacheFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CacheFile>
+    <FileName>Lingue\Resources.resx</FileName>
+    <Checksum>762042118812242215802312695199100423017</Checksum>
+    <ModifiedTime>2021-07-23T09:25:15.8290376</ModifiedTime>
+    <CacheFileType>NeutralResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.de.xlf</FileName>
+    <Checksum>1852419311386153318181423211624928198161</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.7400359-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>2 resource strings with existing translations were updated and applied to the XLIFF file.  The related translations are unchanged, but should be checked to ensure they are still valid for the updated source string.</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.de.resx</FileName>
+    <Checksum>186229177571641771301528722315511013722222677</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.7990447-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.en.xlf</FileName>
+    <Checksum>78228631591371162014892122144231146144100211</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.8310422-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>2 resource strings with existing translations were updated and applied to the XLIFF file.  The related translations are unchanged, but should be checked to ensure they are still valid for the updated source string.</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.fr.xlf</FileName>
+    <Checksum>1552201021137960104521342832198219157253100</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.8630337-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>2 resource strings with existing translations were updated and applied to the XLIFF file.  The related translations are unchanged, but should be checked to ensure they are still valid for the updated source string.</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.en.resx</FileName>
+    <Checksum>44249218129111842201463118591851925221127</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.8340438-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.fr.resx</FileName>
+    <Checksum>1071734218495100371675021792827160</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.8660383-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.ja.xlf</FileName>
+    <Checksum>8321520220319918123822921911347483363142169</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.9080388-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage>
+      <string>2 resource strings with existing translations were updated and applied to the XLIFF file.  The related translations are unchanged, but should be checked to ensure they are still valid for the updated source string.</string>
+    </WarningMessage>
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.ja.resx</FileName>
+    <Checksum>22574129186234253985720724401352145236</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.9170393-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.zh-Hans.xlf</FileName>
+    <Checksum>731571244687712082403611352112282396202</Checksum>
+    <ModifiedTime>2021-07-23T09:25:21.0290399-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.zh-Hans.resx</FileName>
+    <Checksum>853161221491071319017111217521919112920390</Checksum>
+    <ModifiedTime>2021-07-23T09:25:21.0490383-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>MultilingualResources\Restart.ru.xlf</FileName>
+    <Checksum>313417612202861473618018385230115577188</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.9570366-07:00</ModifiedTime>
+    <CacheFileType>XliffResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+  <CacheFile>
+    <FileName>Lingue\Resources.ru.resx</FileName>
+    <Checksum>1215019992168191147169104214139240143132112248</Checksum>
+    <ModifiedTime>2021-07-23T09:25:20.9620386-07:00</ModifiedTime>
+    <CacheFileType>LanguageResource</CacheFileType>
+    <WarningMessage />
+  </CacheFile>
+</ArrayOfCacheFile>

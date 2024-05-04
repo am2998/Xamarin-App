@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Donazione"
+             Shell.NavBarIsVisible="False"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#121212">
+
+
+            <Label Text="{xct:Translate MessaggioDonazione}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="20" />
+
+            <Grid ColumnDefinitions="*,3*" HorizontalOptions="Center" Margin="0,0,0,100" HeightRequest="100"  WidthRequest="150" >
+                <Image Source="paypal.png" Aspect="AspectFit"/>
+                <Label Grid.Column="1" Text="{xct:Translate Dona}" FontSize="20" TextColor="White" TextDecorations="Underline" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Apri"/>
+                </Label.GestureRecognizers>
+            </Label>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

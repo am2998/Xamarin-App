@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Intro"
+              Shell.NavBarIsVisible="False" 
+              Shell.TabBarIsVisible="False"
+              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+              xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+            >
+    <ContentPage.Content>
+        <FlexLayout Direction="Column" AlignItems="Center" BackgroundColor="#121212" >
+
+        <controls:CarouselViewControl x:Name="Pagine" Orientation="Horizontal" IsSwipeEnabled="True"  ShowIndicators="True" 
+                                      VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" ItemsSource="{Binding Lista}" 
+                                      CurrentPageIndicatorTintColor="#1db954" HorizontalIndicatorsPosition="Bottom" InterPageSpacing="0">
+
+            <controls:CarouselViewControl.ItemTemplate>
+                <DataTemplate>
+                    <FlexLayout Direction="Column" AlignItems="Center" BackgroundColor="#121212" >
+                        <Grid RowDefinitions="*,2*,*,*">
+                            <Path   Data="m88.07251,128.86749l465.00001,0l0,85.61215c-274.90801,-63.101 -274.40139,55.52134 -465.00001,14.08583l0,-99.69798l0,0z"
+            Stroke="#1DB954" Fill="#1DB954" Aspect="UniformToFill" Grid.RowSpan="3"/>
+                            <Image Source="{Binding Immagine}" Grid.Row="1" />
+
+                            <Label Grid.Row="3" Text="{Binding Testo}" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontSize="25" FontFamily="Lobster" TextColor="White"/>
+
+                    
+                        </Grid>
+                    </FlexLayout>
+                </DataTemplate>
+            </controls:CarouselViewControl.ItemTemplate>
+        </controls:CarouselViewControl>
+
+
+        <Button HeightRequest="150" Text="{xct:Translate Inizia}" Clicked="Apri" BackgroundColor="#121212" FontFamily="TNR" VerticalOptions="Center" TextColor="White"/>
+        </FlexLayout>
+    </ContentPage.Content>
+
+
+ 
+
+</ContentPage>

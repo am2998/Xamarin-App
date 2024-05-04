@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Nota"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+              xmlns:Risorsa="clr-namespace:Restart.Lingue">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+    
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,150,0,0">
+        <Frame Padding="0,0,0,0" HeightRequest="450"  WidthRequest="350"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1db954">
+
+            <StackLayout>
+                <Label Margin="50" FontSize="15" TextColor ="White" HorizontalOptions="Center" FontFamily="TNR" >
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Quest'applicazione e' ancora in stato embrionale ma presto aggiungero' nuove funzionalita' e nel tempo cerchero' di mantenerla aggiornata costantemente. Sono da solo ed il tempo non e' mai abbastanza, quindi sii paziente e se hai voglia ti chiedo di sostenere il progetto, anche con poco. Se riscontri bug o altri problemi contattami di modo che possa cercare di risolverli il prima possibile,
+                   se invece hai dei suggerimenti scrivimi e vedro' cosa posso fare.
+                   Ti ringrazio per la tua attenzione." />
+                        </FormattedString>
+                    </Label.FormattedText>
+                   
+                </Label>
+                <Button Text="Iniziamo" Clicked ="Chiudi" BackgroundColor="#121212" TextColor="#1DB954" HorizontalOptions="End" FontFamily="TNR" FontSize="20"/> 
+            </StackLayout>
+        </Frame>
+    </FlexLayout>
+
+</pages:PopupPage>

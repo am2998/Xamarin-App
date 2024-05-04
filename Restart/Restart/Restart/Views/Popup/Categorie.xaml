@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Categorie"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+                
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+   <!-- <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="0.5"
+            ScaleOut="0.5"
+            DurationIn="200"
+            DurationOut="200"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="False"/>
+    </pages:PopupPage.Animation>
+-->
+
+
+    <ContentPage.Resources>
+        <ControlTemplate x:Key="RadioButtonTemplate">
+            <Frame BorderColor="#121212"
+                   BackgroundColor="#121212"
+                   HasShadow="False"
+                   HeightRequest="100"
+                   WidthRequest="100"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Start"
+                   Padding="0">
+               <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CheckedStates">
+                            <VisualState x:Name="Checked">
+                               <VisualState.Setters>
+                                    <Setter Property="BorderColor"
+                                            Value="#121212" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="1" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Unchecked">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor"
+                                            Value="#121212" />
+                                    <Setter Property="BorderColor"
+                                            Value="#121212" />
+                                    <Setter TargetName="check"
+                                            Property="Opacity"
+                                            Value="0" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList> 
+                </VisualStateManager.VisualStateGroups> 
+                <Grid Margin="4"
+                      WidthRequest="100">
+                    <Grid WidthRequest="18"
+                          HeightRequest="18"
+                          HorizontalOptions="End"
+                          VerticalOptions="Start">
+                        <Ellipse Stroke="#1db954"
+                                 Fill="White"
+                                 WidthRequest="16"
+                                 HeightRequest="16"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                        <Ellipse x:Name="check"
+                                 Fill="#1db954"
+                                 WidthRequest="8"
+                                 HeightRequest="8"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center" />
+                    </Grid>
+                    <ContentPresenter />
+                </Grid> 
+            </Frame>
+        </ControlTemplate>
+
+        <Style TargetType="RadioButton">
+            <Setter Property="ControlTemplate"
+                    Value="{StaticResource RadioButtonTemplate}" />
+        </Style>
+    </ContentPage.Resources>
+
+
+
+
+
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,0,0,0">
+        <Frame Padding="0,0,0,0" HeightRequest="700"  WidthRequest="400"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1db954">
+            <StackLayout>
+                <Label Text="{xct:Translate Categorie}" FontSize="20" Margin="20" TextColor="White" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" />
+                <StackLayout RadioButtonGroup.GroupName="Categorie" RadioButtonGroup.SelectedValue="{Binding Scelta}" 
+                 Orientation="Horizontal" Margin="10">
+
+                    <RadioButton Value="{xct:Translate Cibo}">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="cibo.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Cibo}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+
+
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Trasporti}">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="trasporti.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Trasporti}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Cultura}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="cultura.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand"  Margin="20,20,20,0"/>
+                                <Label Text="{xct:Translate Cultura}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Istruzione}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="educazione.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand"  Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Istruzione}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <StackLayout RadioButtonGroup.GroupName="Categorie"
+                 Orientation="Horizontal" Margin="10">
+                    <RadioButton Value="{xct:Translate Divertimenti}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="divertimenti.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" Margin="20,20,20,0"  />
+                                <Label Text="{xct:Translate Divertimenti}" TextColor="White"
+                           HorizontalOptions="CenterAndExpand"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Regali}">
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="regali.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Regali}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Bellezza}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="bellezza.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand"  Margin="20,20,20,0"/>
+                                <Label Text="{xct:Translate Bellezza}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Salute}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="salute.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand"  Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Salute}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+                <StackLayout RadioButtonGroup.GroupName="Categorie"
+                 Orientation="Horizontal" Margin="10,20">
+                    <RadioButton Value="{xct:Translate Abbigliamento}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="abbigliamento.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="CenterAndExpand" Margin="20,20,20,0"  />
+                                <Label Text="{xct:Translate Abbigliamento}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton Value="{xct:Translate Altro}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="altro.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label Text="{xct:Translate Altro}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                </StackLayout>
+            
+                
+
+            <Label Text="{xct:Translate CategorieAggiuntive}" FontSize="20" Margin="20" TextColor="White" HorizontalTextAlignment="Center" HorizontalOptions="Center" VerticalOptions="Center" />
+            <StackLayout x:Name="Aggiuntive" RadioButtonGroup.GroupName="Categorie" RadioButtonGroup.SelectedValue="{Binding Scelta}" 
+                 Orientation="Horizontal" Margin="10">
+                    <RadioButton x:Name="Prima" Value="{Binding Categoria1}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="categoria1.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label BindingContext="{x:Reference Prima}" Text="{Binding Value}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton x:Name="Seconda" Value="{Binding Categoria2}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="categoria2.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label BindingContext="{x:Reference Seconda}" Text="{Binding Value}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton x:Name="Terza" Value="{Binding Categoria3}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="categoria3.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label BindingContext="{x:Reference Terza}" Text="{Binding Value}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+                    <RadioButton x:Name="Quarta" Value="{Binding Categoria4}" >
+                        <RadioButton.Content>
+                            <StackLayout>
+                                <Image Source="categoria4.png"
+                           HorizontalOptions="Center"
+                           VerticalOptions="Center" Margin="20,20,20,0" />
+                                <Label BindingContext="{x:Reference Quarta}" Text="{Binding Value}" TextColor="White"
+                           HorizontalOptions="Center"
+                           VerticalOptions="End" />
+                            </StackLayout>
+                        </RadioButton.Content>
+                    </RadioButton>
+
+
+
+                 
+               
+                </StackLayout>
+                <Button Text="{xct:Translate CONFERMA}" Command="{Binding Esci}" BackgroundColor="#1db954" VerticalOptions="EndAndExpand" />
+            </StackLayout>
+        </Frame>
+    </FlexLayout>
+    
+</pages:PopupPage>

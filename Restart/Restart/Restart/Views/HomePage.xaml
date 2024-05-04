@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.HomePage"
+             Shell.NavBarIsVisible="False"
+             xmlns:Risorsa="clr-namespace:Restart.Lingue"
+             xmlns:controls="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
+             xmlns:xct ="http://xamarin.com/schemas/2020/toolkit"
+              xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit">
+
+
+    <ContentPage.Content>
+       
+        <FlexLayout  BackgroundColor="#121212" Direction="Column" AlignItems="Center" JustifyContent="SpaceEvenly">
+
+            <Grid HeightRequest="200" RowDefinitions="*" HorizontalOptions="FillAndExpand" ColumnDefinitions="*,*" Margin="0,0,0,20"  >
+
+                <Path   Data="m88.07251,128.86749l465.00001,0l0,85.61215c-274.90801,-63.101 -274.40139,55.52134 -465.00001,14.08583l0,-99.69798l0,0z"
+            Stroke="#1DB954" Fill="#1DB954" Aspect="UniformToFill" Grid.ColumnSpan="2"/>
+
+
+                <Frame  Padding="20" BackgroundColor="#1f1a24"  CornerRadius="200" BorderColor="Black" >
+                     <Grid WidthRequest="200" Padding="0" ColumnDefinitions="3*,2*,*,*">
+
+
+                            <Image Source="spend.png" HorizontalOptions="Start"   Aspect="AspectFit"  VerticalOptions="Center"/>
+                        <Label Text="{xct:Translate TotaleQuestoMese}"  TextColor="#1DB954" FontSize="15" Grid.Column="1" Grid.ColumnSpan="3"  VerticalOptions="Start" HorizontalTextAlignment="Center" FontFamily="Lobster"/>
+                        <Label Text="{Binding TotaleSpese}" TextColor="#1DB954" FontSize="16" Grid.Column="1" Grid.ColumnSpan="3" HorizontalOptions="Center"  VerticalOptions="End" FontFamily="Lobster"/>
+
+                     </Grid>
+
+                <!-- le due frame, una sopra una sotto, rappresentano i due riquadri superiori, dentro le frame hanno le griglie per separare label e immagini -->
+
+                </Frame>
+
+                <Frame Grid.Column="1"  BackgroundColor="#1f1a24" Padding="20" CornerRadius="200" BorderColor="Black" >
+                    <Grid WidthRequest="200" ColumnDefinitions="3*,*,*,*" Padding="0">
+
+                        <Image Source="money.png" Grid.RowSpan="2"    HorizontalOptions="Start"   Aspect="AspectFit" BackgroundColor="#1f1a24"  VerticalOptions="Center" />
+
+
+                        <Label Text="{xct:Translate BudgetOggi}" Grid.Column="1"  TextColor="#1DB954" FontSize="13" Grid.ColumnSpan="4"  VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" FontFamily="Lobster"/>
+                        <Label  Text="{Binding TettoSpesa}" Grid.Column="1" Grid.ColumnSpan="4"  TextColor="#1DB954" FontSize="16"    VerticalOptions="EndAndExpand" HorizontalOptions="Center" TranslationY="5" FontFamily="Lobster"/>
+                        <Label Text="{xct:Translate Rimanente}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" TextColor="#1DB954" FontSize="13"    VerticalOptions="StartAndExpand" HorizontalOptions="CenterAndExpand" FontFamily="Lobster"/>
+
+                        <Label   Text="{Binding Rimanenza}" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="4" TextColor="#1DB954" VerticalOptions="End" FontSize="16" HorizontalOptions="CenterAndExpand" TranslationY="10" FontFamily="Lobster"/>
+                       
+
+                    </Grid>
+                </Frame>
+            </Grid>
+
+
+            
+
+
+            <Grid HeightRequest="140" WidthRequest="400" >
+
+
+                    <Image Source="transfer.png"  BackgroundColor="#121212" Grid.RowSpan="2"  Aspect="AspectFit" />
+
+                <Label Grid.Column="1" Grid.ColumnSpan="2"   Text="{xct:Translate SpeseIeri}"   HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="12"/>
+                <Label Grid.Column="3" Grid.ColumnSpan="2" Text="{xct:Translate SpeseOggi}"  HorizontalOptions="CenterAndExpand" TextColor="White" FontSize="12"/>
+                <Label Text="{Binding QuantitaIeri, StringFormat='{0}'}" Grid.Row="1" TextColor="White"  Grid.Column="1" Grid.ColumnSpan="2" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="{Binding QuantitaOggi, StringFormat='{0}'}" Grid.Row="1" TextColor="White" Grid.Column="3" Grid.ColumnSpan="2" FontSize="20" FontAttributes="Bold" HorizontalOptions="Center"/>
+
+                <ImageButton Source="ellipsis.png" Aspect="AspectFit"  BackgroundColor="#121212"  Grid.Column="5" Clicked="Altro" HorizontalOptions="EndAndExpand"/>
+            </Grid>
+
+
+            <Frame HeightRequest="290" WidthRequest="320" BorderColor="#1DB954" CornerRadius="200" BackgroundColor="#332940" 
+               HasShadow="False" Margin="20,20,20,0" >
+
+                    <Grid  BackgroundColor="#332940" RowDefinitions="2*,*" ColumnDefinitions="*,1.5*">
+                       
+
+
+
+
+                        <Entry  x:Name="Cifra" Grid.ColumnSpan="2" Margin="20,-10,80,25" 
+                                 FontSize="80"
+                       Keyboard="Numeric" MaxLength="4"
+                        TextColor="#1DB954" Text="{Binding Somma, Mode=TwoWay}"   />
+
+
+
+                        <input:AdvancedSlider Grid.Column="1" Grid.RowSpan="2" Rotation="-90" MinValue="0"  MaxValue="2000"
+                             x:Name="Aumenta"  AbsoluteLayout.LayoutFlags="SizeProportional"  TextColor="#1db954"
+                            DisplayMinMaxValue="True"  ValuePrefix="•" 
+                   VerticalOptions="CenterAndExpand" TranslationX="50" Margin="0,-10,0,0"  Value="{Binding Somma}" />
+
+
+
+                    <!--    <Picker  x:Name="Scelta" Title="{xct:Translate Categoria}" ItemsSource="{Binding ListaCategorie}" FontSize="22" FontAttributes="Bold" 
+                         WidthRequest="100" HorizontalTextAlignment="Center" SelectedItem="{Binding Categoria, Mode=OneWayToSource}"
+                        TitleColor="#1DB954" FontFamily="TNR" TextColor="#1DB954"  BackgroundColor="#332940" Grid.Row="2" Grid.ColumnSpan="2" VerticalOptions="Start" Margin="80,-20"/>
+-->
+
+                    <Label x:Name="Scelta" Text="{Binding CategoriaSelezionata}" TextColor="#1DB954"  HorizontalTextAlignment="Center" Grid.Row="1" Grid.ColumnSpan="2" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"
+                           FontAttributes="Bold">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ApriCategorie}"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                        
+                    </Grid>
+                </Frame>
+
+
+              <!--  <StackLayout Orientation="Horizontal" WidthRequest="100" HeightRequest="200" HorizontalOptions="End" Spacing="10" Margin="0,0,0,10"> -->
+
+                    <!-- i 3 bottoni visualizzati sotto il frame, IMPOSTAZIONI, INSERIMENTO QUOTA, INSERIMENTO SPESA -->
+            <Grid ColumnDefinitions="1.7*,2.6*,3.5*" RowDefinitions="*" HeightRequest="200" WidthRequest="200" FlexLayout.AlignSelf="End" Padding="0" Margin="0,0,5,0">
+
+                <ImageButton  Source="settings.png"  BackgroundColor="#121212"  Clicked="Impostazioni" Aspect="AspectFit"  />
+
+
+                <ImageButton Grid.Column="1" Source="cash.png" Clicked="SalvaQuota" BackgroundColor="#121212"   Aspect="AspectFit"/>
+
+
+                <ImageButton Grid.Column="2" Source="add.png"  Clicked="Salva" BackgroundColor="#121212"  />
+
+                </Grid>
+
+
+
+               <Grid HeightRequest="250" HorizontalOptions="FillAndExpand" Margin="0,0,0,10"  >
+
+                <Label  x:Name="Messaggio" Text="{xct:Translate NESSUNASPESA}"  IsVisible="{Binding DisplayM}"  FontSize="Title" VerticalOptions="End" FontFamily="Lobster" HorizontalOptions="Center" TextColor="#ffffff"/>
+                    <Image Source="nospese.png" WidthRequest="130" HorizontalOptions="FillAndExpand" VerticalOptions="Start" Aspect="AspectFit"/>
+
+
+                    <controls:CarouselViewControl x:Name="ListaSpese" ItemsSource="{Binding ListaSpeseAccessibile}"  ShowIndicators="True"
+                 BackgroundColor="#121212" IsVisible="{Binding DisplayL}" InterPageSpacing="-145"
+                                              CurrentPageIndicatorTintColor="#1DB954" IndicatorsTintColor="#332940" ShowArrows="True" ArrowsBackgroundColor="#121212"  
+                                              HorizontalArrowsPosition="Center" ArrowsTintColor="#1DB954" HorizontalIndicatorsPosition="Bottom" >
+                    <controls:CarouselViewControl.ItemTemplate>
+                            <DataTemplate>
+                            <ContentView>
+                                <StackLayout HorizontalOptions="Center" VerticalOptions="End" HeightRequest="400">
+                                    <Frame  VerticalOptions="CenterAndExpand"   
+                                    BackgroundColor="#1f1a24" WidthRequest="200" HeightRequest="150"
+                                  HorizontalOptions="Center" BorderColor="black" CornerRadius="30" Margin="0,0,20,0">
+
+                                        <Grid  Margin="-6">
+
+
+                                            <Label Grid.Row="0" Grid.RowSpan="3" Grid.ColumnSpan="5"  Text="{Binding Categoria, StringFormat={x:Static Risorsa:Resources.Categoria_Display}}" 
+                                       FontSize="20"  TextColor="#1DB954"/>
+                                            <Label Grid.Row="4" Grid.RowSpan="2" Grid.ColumnSpan="3" Text="{Binding Somma, StringFormat={x:Static Risorsa:Resources.Somma_Display}}" 
+                                       FontSize="Large" TextColor="#1DB954"/>
+
+
+                                            <ImageButton x:Name="Cestino"  Grid.Column="4" Grid.Row="0" Grid.RowSpan="2"  
+                                                 Source="trash.png" Clicked="Elimina" CommandParameter="{Binding ID}" BackgroundColor="#1f1a24"/>
+
+                                            <ImageButton Grid.Column="4" Grid.Row="4" Grid.RowSpan="2"  
+                                                  Source="edit.png" CommandParameter="{Binding ID}" Clicked="Edita" BackgroundColor="#1f1a24"/>
+
+                                        </Grid>
+                                    </Frame>
+
+
+
+                                </StackLayout>
+                            </ContentView>
+                        </DataTemplate>
+                    </controls:CarouselViewControl.ItemTemplate>
+                </controls:CarouselViewControl>
+
+               
+            </Grid>
+            </FlexLayout>
+       
+
+    </ContentPage.Content>
+</ContentPage>

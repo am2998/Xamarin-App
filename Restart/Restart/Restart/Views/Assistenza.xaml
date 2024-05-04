@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Assistenza"
+             Shell.NavBarIsVisible="False">
+    
+    <ContentPage.Content>
+        <StackLayout  BackgroundColor="#121212">
+            <Label Text="Email: " 
+                VerticalOptions="Center" FontSize="30" 
+                HorizontalOptions="CenterAndExpand" TextColor="White" Margin="100" />
+
+            <Grid ColumnDefinitions=".5*,5*" WidthRequest="100" Margin="50" ColumnSpacing="-80"  HeightRequest="100" VerticalOptions="Center">
+                <Image Source="gmail.png"/>
+                <Label Grid.Column="1" LineBreakMode="WordWrap" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" TextDecorations="Underline" TextColor="White" FontSize="30">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="o2m.help">
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Open" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            </Grid>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.ListaSpeseNonComplete"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+                   xmlns:Risorsa="clr-namespace:Restart.Lingue">
+    
+    <ContentPage.Content>
+        <FlexLayout AlignItems="Center" Direction="Column" Padding="0,20,0,0">
+            <Frame Padding="20" HeightRequest="600"  WidthRequest="350"  BackgroundColor="#121212" BorderColor="Black" CornerRadius="20">
+
+
+                <ListView x:Name="ListaRisparmi" ItemsSource="{Binding ListaAccessibile}"  HeightRequest="400"  Margin="10,10"
+                                  HasUnevenRows="True" CachingStrategy="RecycleElementAndDataTemplate" ItemSelected="Imposta" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Grid HeightRequest="80" >
+                                        
+
+
+                                            <Label  Grid.ColumnSpan="3" Text="{Binding Somma, StringFormat={x:Static Risorsa:Resources.Somma_Display}}" FontSize="Title" 
+                                           HorizontalOptions="StartAndExpand" TextColor="White" VerticalOptions="Center"/>
+
+                                            <Label Grid.Column="4" Grid.ColumnSpan="3" Text="{Binding Categoria}" FontSize="Medium" TextColor="White" VerticalOptions="Center" />
+                                     
+                                    </Grid>
+                                </StackLayout>
+
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Frame>
+        </FlexLayout>
+    </ContentPage.Content>
+</pages:PopupPage>

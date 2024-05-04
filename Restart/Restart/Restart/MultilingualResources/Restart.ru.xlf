@@ -1,0 +1,632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="it-IT" target-language="ru" original="RESTART/LINGUE/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="RESTART/LINGUE/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="Totale" translate="yes" xml:space="preserve">
+          <source>TOTALE: {0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ВСЕГО: {0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="Categoria" translate="yes" xml:space="preserve">
+          <source>Categoria</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">категория</target>
+        </trans-unit>
+        <trans-unit id="Cibo" translate="yes" xml:space="preserve">
+          <source>Cibo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">пища</target>
+        </trans-unit>
+        <trans-unit id="Trasporti" translate="yes" xml:space="preserve">
+          <source>Trasporti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">транспорт</target>
+        </trans-unit>
+        <trans-unit id="Cultura" translate="yes" xml:space="preserve">
+          <source>Cultura</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">культура</target>
+        </trans-unit>
+        <trans-unit id="Bellezza" translate="yes" xml:space="preserve">
+          <source>Bellezza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">красота</target>
+        </trans-unit>
+        <trans-unit id="Regali" translate="yes" xml:space="preserve">
+          <source>Regali</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Подарки</target>
+        </trans-unit>
+        <trans-unit id="Istruzione" translate="yes" xml:space="preserve">
+          <source>Istruzione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">инструкция</target>
+        </trans-unit>
+        <trans-unit id="Divertimenti" translate="yes" xml:space="preserve">
+          <source>Divertimenti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">развлечение</target>
+        </trans-unit>
+        <trans-unit id="Altro" translate="yes" xml:space="preserve">
+          <source>Altro</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">другой</target>
+        </trans-unit>
+        <trans-unit id="Categoria_Display" translate="yes" xml:space="preserve">
+          <source>● {0:F3}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">● {0:F3}</target>
+        </trans-unit>
+        <trans-unit id="Somma_Display" translate="yes" xml:space="preserve">
+          <source>{0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="Spesa_Massima" translate="yes" xml:space="preserve">
+          <source>Spesa più alta: {0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Самая высокая трата: {0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="QUOTA" translate="yes" xml:space="preserve">
+          <source>QUOTA: {0:F2}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">КВОТА: {0:F2}</target>
+        </trans-unit>
+        <trans-unit id="FILTRA" translate="yes" xml:space="preserve">
+          <source>Filtra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">фильтр</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA" translate="yes" xml:space="preserve">
+          <source>Elimina</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">удалить</target>
+        </trans-unit>
+        <trans-unit id="EDITA" translate="yes" xml:space="preserve">
+          <source>Edita</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">редактировать</target>
+        </trans-unit>
+        <trans-unit id="ORDINA" translate="yes" xml:space="preserve">
+          <source>Ordina per</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сортировать по</target>
+        </trans-unit>
+        <trans-unit id="STATISTICHE" translate="yes" xml:space="preserve">
+          <source>Statistiche</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">статистика</target>
+        </trans-unit>
+        <trans-unit id="SOMMA" translate="yes" xml:space="preserve">
+          <source>Somma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">сумма</target>
+        </trans-unit>
+        <trans-unit id="DATA" translate="yes" xml:space="preserve">
+          <source>Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">дата</target>
+        </trans-unit>
+        <trans-unit id="AZZERA" translate="yes" xml:space="preserve">
+          <source>Azzera filtri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сброс фильтров</target>
+        </trans-unit>
+        <trans-unit id="CONFERMA" translate="yes" xml:space="preserve">
+          <source>Conferma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">подтверждение</target>
+        </trans-unit>
+        <trans-unit id="ITALIANO" translate="yes" xml:space="preserve">
+          <source>Italiano</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">итальянский</target>
+        </trans-unit>
+        <trans-unit id="INGLESE" translate="yes" xml:space="preserve">
+          <source>Inglese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">английский</target>
+        </trans-unit>
+        <trans-unit id="SPAGNOLO" translate="yes" xml:space="preserve">
+          <source>Spagnolo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">испанский</target>
+        </trans-unit>
+        <trans-unit id="TEMA" translate="yes" xml:space="preserve">
+          <source>Tema</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">тема</target>
+        </trans-unit>
+        <trans-unit id="LINGUA" translate="yes" xml:space="preserve">
+          <source>Lingua</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">язык</target>
+        </trans-unit>
+        <trans-unit id="INDIETRO" translate="yes" xml:space="preserve">
+          <source>Indietro</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Назад</target>
+        </trans-unit>
+        <trans-unit id="DONAZIONE" translate="yes" xml:space="preserve">
+          <source>Fai una donazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сделать пожертвование</target>
+        </trans-unit>
+        <trans-unit id="IMPOSTAZIONI" translate="yes" xml:space="preserve">
+          <source>Impostazioni</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Параметры</target>
+        </trans-unit>
+        <trans-unit id="ASSISTENZA" translate="yes" xml:space="preserve">
+          <source>Assistenza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">помощь</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_CIFRA" translate="yes" xml:space="preserve">
+          <source>Inserisci una cifra!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите цифру!</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_CATEGORIA" translate="yes" xml:space="preserve">
+          <source>Inserisci una categoria!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите категорию!</target>
+        </trans-unit>
+        <trans-unit id="SELEZIONA_SPESA" translate="yes" xml:space="preserve">
+          <source>Seleziona il tipo di spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выберите тип расходов</target>
+        </trans-unit>
+        <trans-unit id="ANNULLA" translate="yes" xml:space="preserve">
+          <source>Annulla</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отмена</target>
+        </trans-unit>
+        <trans-unit id="SPESA_EFFETTUATA" translate="yes" xml:space="preserve">
+          <source>Spesa effettuata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Произведенные расходы</target>
+        </trans-unit>
+        <trans-unit id="SPESA_DAEFFETTUARE" translate="yes" xml:space="preserve">
+          <source>Spesa da effettuare</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Расходы, которые необходимо вынести</target>
+        </trans-unit>
+        <trans-unit id="NON" translate="yes" xml:space="preserve">
+          <source>Non puoi più inserire spese!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы больше не можете вводить расходы!</target>
+        </trans-unit>
+        <trans-unit id="CAMBIARE" translate="yes" xml:space="preserve">
+          <source>Cosa vuoi cambiare?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Что вы хотите изменить?</target>
+        </trans-unit>
+        <trans-unit id="NOTA" translate="yes" xml:space="preserve">
+          <source>Nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">заметка</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_SOMMA" translate="yes" xml:space="preserve">
+          <source>Nuova somma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Новая сумма</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_CATEGORIA" translate="yes" xml:space="preserve">
+          <source>Nuova categoria</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Новая категория</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_NOTA" translate="yes" xml:space="preserve">
+          <source>Modifica la nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Редактирование заметки</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_QUOTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una quota:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите измерение:</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_NON" translate="yes" xml:space="preserve">
+          <source>Cifra non corretta!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Неправильная цифра!</target>
+        </trans-unit>
+        <trans-unit id="QUOTA_RAGGIUNTA" translate="yes" xml:space="preserve">
+          <source>Hai raggiunto la tua quota!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы достигли своей квоты!</target>
+        </trans-unit>
+        <trans-unit id="NO_DATA" translate="yes" xml:space="preserve">
+          <source>Non puoi inserire una data precedente ad oggi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы не можете ввести дату раньше, чем сегодня!</target>
+        </trans-unit>
+        <trans-unit id="CIFRA" translate="yes" xml:space="preserve">
+          <source>Cifra:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">цифра:</target>
+        </trans-unit>
+        <trans-unit id="COSA" translate="yes" xml:space="preserve">
+          <source>Cosa vuoi fare?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Что Вы хотите делать?</target>
+        </trans-unit>
+        <trans-unit id="SEGNA" translate="yes" xml:space="preserve">
+          <source>Segna come effettuata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пометить как готовое</target>
+        </trans-unit>
+        <trans-unit id="AGGIUNGI_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Aggiungi un risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Добавление сохранения</target>
+        </trans-unit>
+        <trans-unit id="MODIFICA_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Modifica il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изменение экономии</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA_SPESA" translate="yes" xml:space="preserve">
+          <source>Elimina la spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сократите расходы</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_SRISPARMIO" translate="yes" xml:space="preserve">
+          <source>Inserisci la somma del tuo risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите сумму Ваших сбережений</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Elimina il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ликвидировать экономию</target>
+        </trans-unit>
+        <trans-unit id="CANCELLA" translate="yes" xml:space="preserve">
+          <source>Cancella</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ясный</target>
+        </trans-unit>
+        <trans-unit id="CAMBIARE_ANCORA" translate="yes" xml:space="preserve">
+          <source>Vuoi cambiare ancora qualcosa?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Хотите изменить что-то большее?</target>
+        </trans-unit>
+        <trans-unit id="ModificaRisparmio" translate="yes" xml:space="preserve">
+          <source>Modifica il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Изменение экономии</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_NON_A" translate="yes" xml:space="preserve">
+          <source>Cifra non ammessa!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Фигура не допускается!</target>
+        </trans-unit>
+        <trans-unit id="NOTA:" translate="yes" xml:space="preserve">
+          <source>Nota:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">заметка:</target>
+        </trans-unit>
+        <trans-unit id="PUOI_NOTA" translate="yes" xml:space="preserve">
+          <source>Puoi inserire una nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Можно вставить заметку</target>
+        </trans-unit>
+        <trans-unit id="A/R" translate="yes" xml:space="preserve">
+          <source>Assegna / Riassegna spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Назначение / переназначение расходов</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_SOMMA_QUOTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una nuova somma per la tua quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите новую сумму для своей доли</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_CORRETTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una cifra corretta!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите правильную цифру!</target>
+        </trans-unit>
+        <trans-unit id="GIORNI" translate="yes" xml:space="preserve">
+          <source>Giorni </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дни недели </target>
+        </trans-unit>
+        <trans-unit id="VALUTA" translate="yes" xml:space="preserve">
+          <source>€ </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">€ </target>
+        </trans-unit>
+        <trans-unit id="DAPAGARE" translate="yes" xml:space="preserve">
+          <source>Da pagare</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">платежеспособный</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI" translate="yes" xml:space="preserve">
+          <source>Inserisci</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">входить</target>
+        </trans-unit>
+        <trans-unit id="LISTASPESE" translate="yes" xml:space="preserve">
+          <source>Lista spese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Список расходов</target>
+        </trans-unit>
+        <trans-unit id="NESSUNASPESA" translate="yes" xml:space="preserve">
+          <source>Nessuna spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Без комиссий</target>
+        </trans-unit>
+        <trans-unit id="Abbigliamento" translate="yes" xml:space="preserve">
+          <source>Abbigliamento</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">одежда</target>
+        </trans-unit>
+        <trans-unit id="Salute" translate="yes" xml:space="preserve">
+          <source>Salute</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Будьте здоровы</target>
+        </trans-unit>
+        <trans-unit id="SpeseIeri" translate="yes" xml:space="preserve">
+          <source>Spese di ieri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вчерашние расходы</target>
+        </trans-unit>
+        <trans-unit id="SpeseOggi" translate="yes" xml:space="preserve">
+          <source>Spese di oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сегодняшние расходы</target>
+        </trans-unit>
+        <trans-unit id="AScelta" translate="yes" xml:space="preserve">
+          <source>A scelta</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ваш выбор</target>
+        </trans-unit>
+        <trans-unit id="GestisciQuota" translate="yes" xml:space="preserve">
+          <source>Gestisci la tua quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Управление квотой</target>
+        </trans-unit>
+        <trans-unit id="Giornaliera" translate="yes" xml:space="preserve">
+          <source>Giornaliera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ежедневный</target>
+        </trans-unit>
+        <trans-unit id="Mensile" translate="yes" xml:space="preserve">
+          <source>Mensile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ежемесячный</target>
+        </trans-unit>
+        <trans-unit id="CategorieAggiuntive" translate="yes" xml:space="preserve">
+          <source>Categorie aggiuntive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дополнительные категории</target>
+        </trans-unit>
+        <trans-unit id="AttivaMappa" translate="yes" xml:space="preserve">
+          <source>Attiva la localizzazione delle spese e poi registra la spesa!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Активируйте местоположение расходов, а затем запишите расходы!</target>
+        </trans-unit>
+        <trans-unit id="RisparmiRimanente" translate="yes" xml:space="preserve">
+          <source>Risparmi - Rimanente</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Экономия - Остаток</target>
+        </trans-unit>
+        <trans-unit id="SpesaDaSostenere" translate="yes" xml:space="preserve">
+          <source>Spesa da sostenere</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Расходы, которые необходимо понести</target>
+        </trans-unit>
+        <trans-unit id="DataScadenza" translate="yes" xml:space="preserve">
+          <source>Data di scadenza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Срок годности</target>
+        </trans-unit>
+        <trans-unit id="Dona" translate="yes" xml:space="preserve">
+          <source>Dona</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Дает</target>
+        </trans-unit>
+        <trans-unit id="GiorniRimanenti" translate="yes" xml:space="preserve">
+          <source>Giorni rimanenti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Оставшиеся дни</target>
+        </trans-unit>
+        <trans-unit id="Ieri" translate="yes" xml:space="preserve">
+          <source>Ieri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вчера</target>
+        </trans-unit>
+        <trans-unit id="Localizzazione" translate="yes" xml:space="preserve">
+          <source>Localizzazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">локализация</target>
+        </trans-unit>
+        <trans-unit id="MessaggioDonazione" translate="yes" xml:space="preserve">
+          <source>Se vuoi sostenere il progetto dona qui</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Если вы хотите поддержать проект, сделайте пожертвование здесь</target>
+        </trans-unit>
+        <trans-unit id="NumeroSpese" translate="yes" xml:space="preserve">
+          <source>Numero di spese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Количество расходов</target>
+        </trans-unit>
+        <trans-unit id="Oggi" translate="yes" xml:space="preserve">
+          <source>Oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сегодня</target>
+        </trans-unit>
+        <trans-unit id="Orario" translate="yes" xml:space="preserve">
+          <source>Orario notifica</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Время уведомления</target>
+        </trans-unit>
+        <trans-unit id="Quanto" translate="yes" xml:space="preserve">
+          <source>Quanto pensi di spendere oggi?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сколько вы планируете потратить сегодня?</target>
+        </trans-unit>
+        <trans-unit id="QuotaLibera" translate="yes" xml:space="preserve">
+          <source>Quota libera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Бесплатная квота</target>
+        </trans-unit>
+        <trans-unit id="QuotaMensile" translate="yes" xml:space="preserve">
+          <source>Quota mensile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ежемесячная плата</target>
+        </trans-unit>
+        <trans-unit id="Rimanenza" translate="yes" xml:space="preserve">
+          <source>Rimanenza disponibile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Доступный остаток</target>
+        </trans-unit>
+        <trans-unit id="Risparmio" translate="yes" xml:space="preserve">
+          <source>Risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">спасительный</target>
+        </trans-unit>
+        <trans-unit id="Salva" translate="yes" xml:space="preserve">
+          <source>Salva</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">салют</target>
+        </trans-unit>
+        <trans-unit id="SpesaMassima" translate="yes" xml:space="preserve">
+          <source>Spesa massima</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Максимальные затраты</target>
+        </trans-unit>
+        <trans-unit id="SpeseMese" translate="yes" xml:space="preserve">
+          <source>Spese di questo mese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Расходы за этот месяц</target>
+        </trans-unit>
+        <trans-unit id="SpeseMesePrecedente" translate="yes" xml:space="preserve">
+          <source>Spese del mese scorso</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Расходы за прошлый месяц</target>
+        </trans-unit>
+        <trans-unit id="SpeseSettimana" translate="yes" xml:space="preserve">
+          <source>Spese di questa settimana</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Расходы на этой неделе</target>
+        </trans-unit>
+        <trans-unit id="TettoSpesa" translate="yes" xml:space="preserve">
+          <source>Tetto di spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Верхний предел расходов</target>
+        </trans-unit>
+        <trans-unit id="TotaleRisparmi" translate="yes" xml:space="preserve">
+          <source>Totale risparmi:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Общая экономия:</target>
+        </trans-unit>
+        <trans-unit id="TotaleSpese" translate="yes" xml:space="preserve">
+          <source>Totale spese: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Общие расходы: </target>
+        </trans-unit>
+        <trans-unit id="BudgetOggi" translate="yes" xml:space="preserve">
+          <source>Budget di oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Сегодняшний бюджет</target>
+        </trans-unit>
+        <trans-unit id="Hey" translate="yes" xml:space="preserve">
+          <source>Hey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Эй</target>
+        </trans-unit>
+        <trans-unit id="Ricordati" translate="yes" xml:space="preserve">
+          <source>Ricordati di registrare le tue spese!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Не забудьте зафиксировать свои расходы!</target>
+        </trans-unit>
+        <trans-unit id="Rimanente" translate="yes" xml:space="preserve">
+          <source>Rimanente</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">остальной</target>
+        </trans-unit>
+        <trans-unit id="TotaleQuestoMese" translate="yes" xml:space="preserve">
+          <source>Totale di questo mese:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Итого за этот месяц:</target>
+        </trans-unit>
+        <trans-unit id="Errore" translate="yes" xml:space="preserve">
+          <source>Errore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ошибка</target>
+        </trans-unit>
+        <trans-unit id="MeseProssimo" translate="yes" xml:space="preserve">
+          <source>ci vediamo il mese prossimo!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">до встречи в следующем месяце!</target>
+        </trans-unit>
+        <trans-unit id="NoAttivato" translate="yes" xml:space="preserve">
+          <source>Devi attivare il gps!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы должны активировать gps!</target>
+        </trans-unit>
+        <trans-unit id="NonTrovo" translate="yes" xml:space="preserve">
+          <source>Non riesco a capire dove sei!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Я не могу понять, где ты найди!</target>
+        </trans-unit>
+        <trans-unit id="NoPermessi" translate="yes" xml:space="preserve">
+          <source>Devi dare i permessi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы должны дать разрешение!</target>
+        </trans-unit>
+        <trans-unit id="NoSupporto" translate="yes" xml:space="preserve">
+          <source>Mi dispiace, il tuo dispositivo non supporta questa funzionalita'</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Извините, ваше устройство не поддерживает эту функцию</target>
+        </trans-unit>
+        <trans-unit id="QuotaRaggiunta" translate="yes" xml:space="preserve">
+          <source>Hai raggiunto la tua quota prefissata!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Вы достигли установленной квоты!</target>
+        </trans-unit>
+        <trans-unit id="QuotaScaduta" translate="yes" xml:space="preserve">
+          <source>La quota di questo mese e'scaduta! Hai risparmiato</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Квота этого месяца выросла! Вы сохранили</target>
+        </trans-unit>
+        <trans-unit id="Categorie" translate="yes" xml:space="preserve">
+          <source>Categorie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Категории</target>
+        </trans-unit>
+        <trans-unit id="Lingue" translate="yes" xml:space="preserve">
+          <source>Lingue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Языки</target>
+        </trans-unit>
+        <trans-unit id="Accedi" translate="yes" xml:space="preserve">
+          <source>Accedi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Войти</target>
+        </trans-unit>
+        <trans-unit id="Autenticazione" translate="yes" xml:space="preserve">
+          <source>Autenticazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">аутентификация</target>
+        </trans-unit>
+        <trans-unit id="AutenticazioneFallita" translate="yes" xml:space="preserve">
+          <source>Autenticazione fallita</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ошибка аутентификации</target>
+        </trans-unit>
+        <trans-unit id="ErroreAutenticazione" translate="yes" xml:space="preserve">
+          <source>L' autenticazione biometrica non e' disponibile o non e' configurata.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Биометрическая аутентификация недоступна или не настроена.</target>
+        </trans-unit>
+        <trans-unit id="FissaQuota" translate="yes" xml:space="preserve">
+          <source>Fissa una quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Исправление измерения</target>
+        </trans-unit>
+        <trans-unit id="GestisciRisparmi" translate="yes" xml:space="preserve">
+          <source>Ma pensa anche ai tuoi risparmi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Но также подумайте о своих сбережениях!</target>
+        </trans-unit>
+        <trans-unit id="Inizia" translate="yes" xml:space="preserve">
+          <source>Iniziamo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">начало</target>
+        </trans-unit>
+        <trans-unit id="RegistraSpese" translate="yes" xml:space="preserve">
+          <source>Registra le tue spese e tienine traccia!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Записывайте свои расходы и отслеживайте их!</target>
+        </trans-unit>
+        <trans-unit id="Sblocco" translate="yes" xml:space="preserve">
+          <source>Sblocco con impronta</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Разблокировка с помощью отпечатка пальца</target>
+        </trans-unit>
+        <trans-unit id="Esci" translate="yes" xml:space="preserve">
+          <source>Esci</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">выход</target>
+        </trans-unit>
+        <trans-unit id="SpesaAssegnata" translate="yes" xml:space="preserve">
+          <source>Spesa assegnata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Выделенные расходы</target>
+        </trans-unit>
+        <trans-unit id="AccountEsistente" translate="yes" xml:space="preserve">
+          <source>Esiste gia' un account associato a questa email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Уже есть учетная запись, связанная с этим письмом</target>
+        </trans-unit>
+        <trans-unit id="CMaiuscolo" translate="yes" xml:space="preserve">
+          <source>Un carattere maiuscolo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Символ верхнего регистра</target>
+        </trans-unit>
+        <trans-unit id="Codice" translate="yes" xml:space="preserve">
+          <source>Il tuo codice e'</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ваш код</target>
+        </trans-unit>
+        <trans-unit id="ConfermaPassword" translate="yes" xml:space="preserve">
+          <source>Conferma Password:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Подтвердите пароль:</target>
+        </trans-unit>
+        <trans-unit id="CredenzialiErrate" translate="yes" xml:space="preserve">
+          <source>Le credenziali sono errate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Учетные данные неверны</target>
+        </trans-unit>
+        <trans-unit id="CSpeciale" translate="yes" xml:space="preserve">
+          <source>Un carattere speciale</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Специальный символ</target>
+        </trans-unit>
+        <trans-unit id="DatiNonCorretti" translate="yes" xml:space="preserve">
+          <source>Inserisci correttamente i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите данные правильно</target>
+        </trans-unit>
+        <trans-unit id="EmailValida" translate="yes" xml:space="preserve">
+          <source>Inserisci una email valida</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, введите действительный адрес электронной почты</target>
+        </trans-unit>
+        <trans-unit id="IndirizzoValido" translate="yes" xml:space="preserve">
+          <source>Inserisci un indirizzo valido</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пожалуйста, введите действительный адрес</target>
+        </trans-unit>
+        <trans-unit id="InserisciCodice" translate="yes" xml:space="preserve">
+          <source>inserisci il codice inviato:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">введите отправленный код:</target>
+        </trans-unit>
+        <trans-unit id="InserisciDatiRegistrazione" translate="yes" xml:space="preserve">
+          <source>Inserisci i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ввод данных</target>
+        </trans-unit>
+        <trans-unit id="Invia" translate="yes" xml:space="preserve">
+          <source>Invia</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Отправить</target>
+        </trans-unit>
+        <trans-unit id="MostraPassword" translate="yes" xml:space="preserve">
+          <source>Mostra password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Показать пароль</target>
+        </trans-unit>
+        <trans-unit id="Numero" translate="yes" xml:space="preserve">
+          <source>Un numero</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">ряд</target>
+        </trans-unit>
+        <trans-unit id="PasswordDimenticata" translate="yes" xml:space="preserve">
+          <source>Password dimenticata?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Забыли пароль?</target>
+        </trans-unit>
+        <trans-unit id="Registrazione" translate="yes" xml:space="preserve">
+          <source>Registrati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">зарегистрированный</target>
+        </trans-unit>
+        <trans-unit id="RichiestePassword" translate="yes" xml:space="preserve">
+          <source>La password deve contenere almeno:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Пароль должен содержать как минимум:</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>Accedi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Войти</target>
+        </trans-unit>
+        <trans-unit id="Caratteri" translate="yes" xml:space="preserve">
+          <source>10-40 caratteri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">10-40 символов</target>
+        </trans-unit>
+        <trans-unit id="EmailInviata" translate="yes" xml:space="preserve">
+          <source>Email inviata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Письмо отправлено</target>
+        </trans-unit>
+        <trans-unit id="InserisciDatiCorretti" translate="yes" xml:space="preserve">
+          <source>Inserisci correttamente i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Введите данные правильно</target>
+        </trans-unit>
+        <trans-unit id="NoConnessione" translate="yes" xml:space="preserve">
+          <source>Nessuna connessione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">отсутствие соединения</target>
+        </trans-unit>
+        <trans-unit id="AccountNonPresente" translate="yes" xml:space="preserve">
+          <source>L'email non e' associata a nessun account</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Адрес электронной почты не связан с какой-либо учетной записью</target>
+        </trans-unit>
+        <trans-unit id="LogOut" translate="yes" xml:space="preserve">
+          <source>Esci</source>
+          <target state="new">Esci</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

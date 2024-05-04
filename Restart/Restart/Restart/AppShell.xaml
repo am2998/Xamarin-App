@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:Restart.Views"
+       Title="Restart"
+       x:Class="Restart.AppShell"
+       xmlns:xct ="http://xamarin.com/schemas/2020/toolkit">
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+             
+          
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#121212" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="#121212"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#332940"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="#1DB954"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+
+       
+        </ResourceDictionary>
+    </Shell.Resources>
+
+   
+    
+
+    <!--
+        TabBar lets you define content that won't show up in a flyout menu. When this content is active
+        the flyout menu won't be available. This is useful for creating areas of the application where 
+        you don't want users to be able to navigate away from. If you would like to navigate to this 
+        content you can do so by calling 
+        await Shell.Current.GoToAsync("//LoginPage");
+    -->
+    <TabBar >
+        <Tab Title="{xct:Translate LISTASPESE}" Icon="agenda.png">
+        <ShellContent Route="Lista" ContentTemplate="{DataTemplate local:SpeseFattePage}" />
+        </Tab>
+        <Tab Title="{xct:Translate INSERISCI}" Icon="home.png" >
+        <ShellContent x:Name="StartPage" Route="HomePage" ContentTemplate="{DataTemplate local:HomePage}" />
+        </Tab>
+        <Tab Title="{xct:Translate DAPAGARE}" Icon="purchase.png" >
+            <ShellContent Route="SpeseinLista" ContentTemplate="{DataTemplate local:CheckPage}" />
+        </Tab>
+
+    </TabBar>
+
+
+   
+</Shell>

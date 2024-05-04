@@ -1,0 +1,463 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Totale" xml:space="preserve">
+    <value>TOTAL: {0:F2} €</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>Categoría</value>
+  </data>
+  <data name="Cibo" xml:space="preserve">
+    <value>Comida</value>
+  </data>
+  <data name="Trasporti" xml:space="preserve">
+    <value>Transporte</value>
+  </data>
+  <data name="Cultura" xml:space="preserve">
+    <value>Cultura</value>
+  </data>
+  <data name="Bellezza" xml:space="preserve">
+    <value>Belleza</value>
+  </data>
+  <data name="Regali" xml:space="preserve">
+    <value>Presenta</value>
+  </data>
+  <data name="Istruzione" xml:space="preserve">
+    <value>Instrucción</value>
+  </data>
+  <data name="Divertimenti" xml:space="preserve">
+    <value>Entretenimiento</value>
+  </data>
+  <data name="Altro" xml:space="preserve">
+    <value>Otro</value>
+  </data>
+  <data name="Categoria_Display" xml:space="preserve">
+    <value>● {0:F3}</value>
+  </data>
+  <data name="Somma_Display" xml:space="preserve">
+    <value>{0:F2} €</value>
+  </data>
+  <data name="Spesa_Massima" xml:space="preserve">
+    <value>Mayor gasto: {0:F2} €</value>
+  </data>
+  <data name="QUOTA" xml:space="preserve">
+    <value>CITA:</value>
+  </data>
+  <data name="FILTRA" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="ELIMINA" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="EDITA" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="ORDINA" xml:space="preserve">
+    <value>Ordenar por</value>
+  </data>
+  <data name="STATISTICHE" xml:space="preserve">
+    <value>Estadísticas</value>
+  </data>
+  <data name="SOMMA" xml:space="preserve">
+    <value>Suma</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="AZZERA" xml:space="preserve">
+    <value>Restablecer filtros</value>
+  </data>
+  <data name="CONFERMA" xml:space="preserve">
+    <value>Confirmación</value>
+  </data>
+  <data name="ITALIANO" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="INGLESE" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="SPAGNOLO" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="TEMA" xml:space="preserve">
+    <value>Tema</value>
+  </data>
+  <data name="LINGUA" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="INDIETRO" xml:space="preserve">
+    <value>Espalda</value>
+  </data>
+  <data name="DONAZIONE" xml:space="preserve">
+    <value>Haz una donación</value>
+  </data>
+  <data name="IMPOSTAZIONI" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="ASSISTENZA" xml:space="preserve">
+    <value>Asistencia</value>
+  </data>
+  <data name="INSERISCI_CIFRA" xml:space="preserve">
+    <value>Ingrese un numero!</value>
+  </data>
+  <data name="INSERISCI_CATEGORIA" xml:space="preserve">
+    <value>Ingrese una categoría!</value>
+  </data>
+  <data name="SELEZIONA_SPESA" xml:space="preserve">
+    <value>Seleccione el tipo de gasto</value>
+  </data>
+  <data name="ANNULLA" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="SPESA_EFFETTUATA" xml:space="preserve">
+    <value>Compras hechas</value>
+  </data>
+  <data name="SPESA_DAEFFETTUARE" xml:space="preserve">
+    <value>Gastos a realizar</value>
+  </data>
+  <data name="NON" xml:space="preserve">
+    <value>¡Ya no puede ingresar gastos!</value>
+  </data>
+  <data name="CAMBIARE" xml:space="preserve">
+    <value>¿Qué quieres cambiar?</value>
+  </data>
+  <data name="NOTA" xml:space="preserve">
+    <value>Nota</value>
+  </data>
+  <data name="NUOVA_SOMMA" xml:space="preserve">
+    <value>Nueva suma</value>
+  </data>
+  <data name="NUOVA_CATEGORIA" xml:space="preserve">
+    <value>Nueva categoría</value>
+  </data>
+  <data name="NUOVA_NOTA" xml:space="preserve">
+    <value>Edita la nota</value>
+  </data>
+  <data name="INSERISCI_QUOTA" xml:space="preserve">
+    <value>Ingrese una cuota:</value>
+  </data>
+  <data name="CIFRA_NON" xml:space="preserve">
+    <value>¡Dígito incorrecto!</value>
+  </data>
+  <data name="QUOTA_RAGGIUNTA" xml:space="preserve">
+    <value>¡Has alcanzado tu cuota!</value>
+  </data>
+  <data name="NO_DATA" xml:space="preserve">
+    <value>¡No puede ingresar una fecha anterior a hoy!</value>
+  </data>
+  <data name="CIFRA" xml:space="preserve">
+    <value>Suma:</value>
+  </data>
+  <data name="COSA" xml:space="preserve">
+    <value>¿Qué es lo que quieres hacer?</value>
+  </data>
+  <data name="SEGNA" xml:space="preserve">
+    <value>marcar como hecho</value>
+  </data>
+  <data name="AGGIUNGI_RISPARMIO" xml:space="preserve">
+    <value>Aggiungi un risparmio</value>
+  </data>
+  <data name="MODIFICA_RISPARMIO" xml:space="preserve">
+    <value>Cambiar ahorros</value>
+  </data>
+  <data name="ELIMINA_SPESA" xml:space="preserve">
+    <value>Elimina el gasto</value>
+  </data>
+  <data name="INSERISCI_SRISPARMIO" xml:space="preserve">
+    <value>Ingrese la cantidad de sus ahorros</value>
+  </data>
+  <data name="ELIMINA_RISPARMIO" xml:space="preserve">
+    <value>Eliminas ahorros</value>
+  </data>
+  <data name="CANCELLA" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="CAMBIARE_ANCORA" xml:space="preserve">
+    <value>¿Quieres cambiar algo de nuevo?</value>
+  </data>
+  <data name="ModificaRisparmio" xml:space="preserve">
+    <value>Cambia tus ahorros</value>
+  </data>
+  <data name="CIFRA_NON_A" xml:space="preserve">
+    <value>¡Dígito no permitido!</value>
+  </data>
+  <data name="NOTA:" xml:space="preserve">
+    <value>Nota:</value>
+  </data>
+  <data name="PUOI_NOTA" xml:space="preserve">
+    <value>Puedes ingresar una nota</value>
+  </data>
+  <data name="A/R" xml:space="preserve">
+    <value>Asignar / reasignar gastos</value>
+  </data>
+  <data name="NUOVA_SOMMA_QUOTA" xml:space="preserve">
+    <value>Ingrese una nueva cantidad para su parte</value>
+  </data>
+  <data name="CIFRA_CORRETTA" xml:space="preserve">
+    <value>¡Ingrese un número correcto!</value>
+  </data>
+  <data name="GIORNI" xml:space="preserve">
+    <value>Dias</value>
+  </data>
+  <data name="VALUTA" xml:space="preserve">
+    <value>€ </value>
+  </data>
+  <data name="DAPAGARE" xml:space="preserve">
+    <value>Pagar</value>
+  </data>
+  <data name="INSERISCI" xml:space="preserve">
+    <value>Insertar</value>
+  </data>
+  <data name="LISTASPESE" xml:space="preserve">
+    <value>Lista de gastos</value>
+  </data>
+  <data name="NESSUNASPESA" xml:space="preserve">
+    <value>Sin gasto</value>
+  </data>
+  <data name="Abbigliamento" xml:space="preserve">
+    <value>Ropa</value>
+  </data>
+  <data name="Salute" xml:space="preserve">
+    <value>Salud</value>
+  </data>
+  <data name="SpeseIeri" xml:space="preserve">
+    <value>Los gastos de ayer</value>
+  </data>
+  <data name="SpeseOggi" xml:space="preserve">
+    <value>Los gastos de hoy</value>
+  </data>
+  <data name="AScelta" xml:space="preserve">
+    <value>Elección</value>
+  </data>
+  <data name="GestisciQuota" xml:space="preserve">
+    <value>Gestiona tu cuota</value>
+  </data>
+  <data name="Giornaliera" xml:space="preserve">
+    <value>Diario</value>
+  </data>
+  <data name="Mensile" xml:space="preserve">
+    <value>Mensual</value>
+  </data>
+  <data name="CategorieAggiuntive" xml:space="preserve">
+    <value>Categorías adicionales</value>
+  </data>
+  <data name="AttivaMappa" xml:space="preserve">
+    <value>¡Activa la localización de los gastos y registra los gastos!</value>
+  </data>
+  <data name="RisparmiRimanente" xml:space="preserve">
+    <value>Ahorros - Restante</value>
+  </data>
+  <data name="SpesaDaSostenere" xml:space="preserve">
+    <value>Gastos a incurrir</value>
+  </data>
+  <data name="DataScadenza" xml:space="preserve">
+    <value>Fecha de caducidad</value>
+  </data>
+  <data name="Dona" xml:space="preserve">
+    <value>Donar</value>
+  </data>
+  <data name="GiorniRimanenti" xml:space="preserve">
+    <value>Días restantes</value>
+  </data>
+  <data name="Ieri" xml:space="preserve">
+    <value>Ayer</value>
+  </data>
+  <data name="Localizzazione" xml:space="preserve">
+    <value>Localización</value>
+  </data>
+  <data name="MessaggioDonazione" xml:space="preserve">
+    <value>Si quieres apoyar el proyecto dona aquí</value>
+  </data>
+  <data name="NumeroSpese" xml:space="preserve">
+    <value>Numero de gastos</value>
+  </data>
+  <data name="Oggi" xml:space="preserve">
+    <value>Hoy</value>
+  </data>
+  <data name="Orario" xml:space="preserve">
+    <value>Hora de notificación</value>
+  </data>
+  <data name="Quanto" xml:space="preserve">
+    <value>¿Cuánto planeas gastar hoy?</value>
+  </data>
+  <data name="QuotaLibera" xml:space="preserve">
+    <value>Cuota libre</value>
+  </data>
+  <data name="QuotaMensile" xml:space="preserve">
+    <value>Cuota mensual</value>
+  </data>
+  <data name="Rimanenza" xml:space="preserve">
+    <value>Remanente disponible</value>
+  </data>
+  <data name="Risparmio" xml:space="preserve">
+    <value>Ahorro</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>Salva</value>
+  </data>
+  <data name="SpesaMassima" xml:space="preserve">
+    <value>Gasto máximo</value>
+  </data>
+  <data name="SpeseMese" xml:space="preserve">
+    <value>Gastos este mes</value>
+  </data>
+  <data name="SpeseMesePrecedente" xml:space="preserve">
+    <value>Gastos del mes anterior</value>
+  </data>
+  <data name="SpeseSettimana" xml:space="preserve">
+    <value>Gastos esta semana</value>
+  </data>
+  <data name="TettoSpesa" xml:space="preserve">
+    <value>Limite máximo de gastos</value>
+  </data>
+  <data name="TotaleRisparmi" xml:space="preserve">
+    <value>Ahorros totales:</value>
+  </data>
+  <data name="TotaleSpese" xml:space="preserve">
+    <value>Gastos totales:</value>
+  </data>
+  <data name="BudgetOggi" xml:space="preserve">
+    <value>Presupuesto hoy</value>
+  </data>
+  <data name="Hey" xml:space="preserve">
+    <value>Oye</value>
+  </data>
+  <data name="Ricordati" xml:space="preserve">
+    <value>¡Recuerde registrar sus gastos!</value>
+  </data>
+  <data name="Rimanente" xml:space="preserve">
+    <value>Restante</value>
+  </data>
+  <data name="TotaleQuestoMese" xml:space="preserve">
+    <value>Total para este mes:</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MeseProssimo" xml:space="preserve">
+    <value>¡Te veo el mes que viene!</value>
+  </data>
+  <data name="NoAttivato" xml:space="preserve">
+    <value>¡Tienes que activar el gps!</value>
+  </data>
+  <data name="NonTrovo" xml:space="preserve">
+    <value>¡No puedo entender dónde estás!</value>
+  </data>
+  <data name="NoPermessi" xml:space="preserve">
+    <value>¡Tienes que dar permisos!</value>
+  </data>
+  <data name="NoSupporto" xml:space="preserve">
+    <value>Lo sentimos, su dispositivo no es compatible con esta función.</value>
+  </data>
+  <data name="QuotaRaggiunta" xml:space="preserve">
+    <value>¡Has alcanzado tu cuota fija!</value>
+  </data>
+  <data name="QuotaScaduta" xml:space="preserve">
+    <value>¡La tarifa de este mes ha bajado! Salvaste</value>
+  </data>
+  <data name="Categorie" xml:space="preserve">
+    <value>Categorías</value>
+  </data>
+  <data name="Lingue" xml:space="preserve">
+    <value>Idiomas</value>
+  </data>
+  <data name="Accedi" xml:space="preserve">
+    <value>Inicia sesión para iniciar sesión</value>
+  </data>
+  <data name="Autenticazione" xml:space="preserve">
+    <value>Autenticación</value>
+  </data>
+  <data name="AutenticazioneFallita" xml:space="preserve">
+    <value>autenticación fallida</value>
+  </data>
+  <data name="ErroreAutenticazione" xml:space="preserve">
+    <value>La autenticación biométrica no está disponible o no está configurada.</value>
+  </data>
+  <data name="FissaQuota" xml:space="preserve">
+    <value>Establecer una cuota</value>
+  </data>
+  <data name="GestisciRisparmi" xml:space="preserve">
+    <value>¡Pero piense también en sus ahorros!</value>
+  </data>
+  <data name="Inizia" xml:space="preserve">
+    <value>Vamos a empezar</value>
+  </data>
+  <data name="RegistraSpese" xml:space="preserve">
+    <value>¡Registre sus gastos y realice un seguimiento de ellos!</value>
+  </data>
+  <data name="Sblocco" xml:space="preserve">
+    <value>Desbloquear con huella</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>Fuera</value>
+  </data>
+  <data name="SpesaAssegnata" xml:space="preserve">
+    <value>Gasto asignado</value>
+  </data>
+  <data name="AccountEsistente" xml:space="preserve">
+    <value>Ya hay una cuenta asociada a este correo electrónico</value>
+  </data>
+  <data name="CMaiuscolo" xml:space="preserve">
+    <value>Un carácter en mayúsculas</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>El código es</value>
+  </data>
+  <data name="ConfermaPassword" xml:space="preserve">
+    <value>Confirmar contraseña:</value>
+  </data>
+  <data name="CredenzialiErrate" xml:space="preserve">
+    <value>Las credenciales son incorrectas</value>
+  </data>
+  <data name="CSpeciale" xml:space="preserve">
+    <value>Un carácter especial</value>
+  </data>
+  <data name="DatiNonCorretti" xml:space="preserve">
+    <value>Introducir los datos correctamente</value>
+  </data>
+  <data name="EmailValida" xml:space="preserve">
+    <value>Introduce un correo electrónico válido</value>
+  </data>
+  <data name="IndirizzoValido" xml:space="preserve">
+    <value>Introduce una dirección válida</value>
+  </data>
+  <data name="InserisciCodice" xml:space="preserve">
+    <value>
+Escriba el código que se le envió:</value>
+  </data>
+  <data name="InserisciDatiRegistrazione" xml:space="preserve">
+    <value>Introducir datos</value>
+  </data>
+  <data name="Invia" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="MostraPassword" xml:space="preserve">
+    <value>Mostrar contraseña</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>Un número</value>
+  </data>
+  <data name="PasswordDimenticata" xml:space="preserve">
+    <value>¿Olvidó la contraseña?</value>
+  </data>
+  <data name="Registrazione" xml:space="preserve">
+    <value>registrado</value>
+  </data>
+  <data name="RichiestePassword" xml:space="preserve">
+    <value>La contraseña debe contener al menos:</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Inicia sesión</value>
+  </data>
+</root>

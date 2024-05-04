@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<reactiveui:ReactiveContentPage
+    
+   
+    x:TypeArguments="vm:SpeseViewModel"
+   
+    xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.SpeseFattePage"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:forms="clr-namespace:Microcharts.Forms;assembly=Microcharts.Forms"
+             xmlns:Risorsa="clr-namespace:Restart.Lingue"
+         
+             Shell.NavBarIsVisible="False"
+             xmlns:reactiveui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+             xmlns:vm ="clr-namespace:Restart.ViewModels"
+             xmlns:xct ="http://xamarin.com/schemas/2020/toolkit">
+    
+    <ContentPage.Content>
+
+        <!-- layout generale-->
+        <FlexLayout  AlignItems="Center" Direction="Column" HeightRequest="800" WidthRequest="600" BackgroundColor="#121212">
+           
+
+
+                <forms:ChartView  x:Name="chart" Chart="{Binding Chart}"   HeightRequest="320" WidthRequest="350" Margin="0,0,0,20"  VerticalOptions="Center"/> 
+  
+
+
+
+            <Frame  BackgroundColor="#1f1a24" CornerRadius="30" Margin="0,0,0,0" HeightRequest="500" WidthRequest="350" BorderColor="Black" >
+
+                <StackLayout>
+                    <Grid  HeightRequest="100" Padding="0" ColumnSpacing="0">
+
+                       
+                        <ImageButton BackgroundColor="#1f1a24" Source="filter.png" HorizontalOptions="Start" 
+                                  Aspect="AspectFill"  Clicked="ApriFiltro" Scale="2"/>
+
+                        <Label Text="{xct:Translate FILTRA}" Grid.Column="1" VerticalOptions="Center"  Grid.ColumnSpan="2"   TextColor="#1DB954" />
+
+
+                        <Button Grid.Column="3" Grid.ColumnSpan="3" Text="{xct:Translate STATISTICHE}"  BackgroundColor="#1f1a24" Grid.RowSpan="2" TextColor="#1DB954"  FontSize="10" HorizontalOptions="Start"
+                                Clicked="ApriStatistiche" VerticalOptions="Center"/>
+                        
+                        
+
+
+
+                        <Label Grid.Column="6" Grid.ColumnSpan="3" Text="{ xct:Translate ORDINA}" FontSize="15" Grid.RowSpan="2" TextColor="#1DB954" VerticalOptions="Center" HorizontalOptions="End"/>
+
+                        <Label Text="{Binding Ordine}" Grid.Column="9" Grid.ColumnSpan="2" Grid.RowSpan="2" HorizontalTextAlignment="Center" TextColor="#1DB954" 
+                                 FontSize="15"  WidthRequest="60" VerticalOptions="Center" x:Name="Filtro" HorizontalOptions="Start" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="ScegliOrdine"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                    </Grid>
+
+
+
+                    <ListView  x:Name="MyListView" ItemsSource="{Binding ListaOsservabile}" BackgroundColor="#1f1a24" 
+                          HasUnevenRows="True" IsPullToRefreshEnabled="True" RefreshCommand="{Binding Aggiorna}"  Margin="0,0,0,0" 
+                               CachingStrategy="RecycleElementAndDataTemplate" IsRefreshing="{Binding Refresh}" SeparatorVisibility="None">
+
+                        <ListView.ItemTemplate>
+                            <DataTemplate >
+                                <ViewCell>
+
+                                    <SwipeView BackgroundColor="#1f1a24">
+
+                                        <SwipeView.LeftItems>
+                                            <SwipeItems>
+                                                <SwipeItemView>
+                                                    <ContentView>
+
+                                                        <StackLayout BackgroundColor="#1f1a24" WidthRequest="120"  >
+                                                            <Grid Margin="-10,15,0,0" HeightRequest="200" RowDefinitions="3*,*,3*,*" BackgroundColor="#1f1a24">
+
+
+                                                                <ImageButton Source="trash.png"  WidthRequest="120" BackgroundColor="#1f1a24"  Clicked="Elimina_Spesa" CommandParameter="{Binding ID}"/>
+                                                                <Label Grid.Row="1" Text="{ xct:Translate ELIMINA}" WidthRequest="90" FontSize="Small" 
+                                                               HorizontalTextAlignment="Center" TextColor="#1DB954"/>
+
+                                                                <ImageButton Grid.Row="2" Source="edit.png"  WidthRequest="120" BackgroundColor="#1f1a24" Clicked="Edita_Spesa"/>
+                                                                <Label Grid.Row="3" Text="{xct:Translate EDITA}" WidthRequest="90"  FontSize="Small"
+                                                               HorizontalTextAlignment="Center" TextColor="#1DB954" />
+                                                            </Grid>
+
+
+                                                        </StackLayout>
+
+
+                                                    </ContentView>
+
+
+                                                </SwipeItemView>
+
+                                            </SwipeItems>
+                                        </SwipeView.LeftItems>
+
+
+
+
+                                 
+                                                <Frame BackgroundColor="#332940" HeightRequest="130" CornerRadius="25" Margin="20,10" BorderColor="#181818">
+
+                                                    <Grid>
+                                                        
+
+                                                        <Label Grid.Column="4" Grid.ColumnSpan="2" Grid.Row="2" Text="{Binding Data}" FontSize="Subtitle" TextColor="#1DB954"/>
+                                                        <Label  Grid.ColumnSpan="2" Text="{Binding Somma, StringFormat={x:Static Risorsa:Resources.Somma_Display}}" FontSize="Medium" HorizontalOptions="StartAndExpand"
+                                                               TextColor="#1DB954"/>
+                                                        <Label Grid.Column="2" Grid.ColumnSpan ="4" Text="{Binding Categoria}" FontSize="17" TextColor="#1DB954"/>
+                                                        <ImageButton Source="nota.png" Clicked="MostraNota" Grid.Row="2" BackgroundColor="#332940" />
+
+                                                        <ImageButton Source="map.png" Clicked="ApriMappa" Grid.Column="2" Grid.Row="2"/>
+
+
+
+                                                    </Grid>
+
+                                                </Frame>
+                                       
+
+
+                                    </SwipeView>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+
+
+
+                    </ListView>
+                </StackLayout>
+            </Frame>
+
+         
+            
+            
+        </FlexLayout>
+    </ContentPage.Content>
+ 
+</reactiveui:ReactiveContentPage>

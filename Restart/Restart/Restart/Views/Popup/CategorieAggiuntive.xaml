@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.CategorieAggiuntive"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+              xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+    <ScrollView>
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,0,0,0">
+        <Frame Padding="0" HeightRequest="450"  WidthRequest="400"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1DB954">
+            <Grid Padding="15,15,15,0" ColumnSpacing="-10" >
+                <Label Text="{xct:Translate Categoria}" TextColor="White" FontSize="10" VerticalOptions="Start"/>
+                <Entry Text="{Binding Categoria1, Mode=TwoWay, TargetNullValue=Vuoto}" Keyboard="Chat" TextColor="White" WidthRequest="50"  Grid.ColumnSpan="2" FontSize="30" IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" ClearButtonVisibility="WhileEditing"/>
+
+                <Label Text="{xct:Translate Categoria}"  TextColor="White" FontSize="10"  Grid.Row="1" VerticalOptions="Start"/>
+                <Entry Grid.Row="1" Text="{Binding Categoria2, Mode=TwoWay, TargetNullValue=Vuoto}" Keyboard="Chat" TextColor="White"  Grid.ColumnSpan="2" FontSize="30"  IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" ClearButtonVisibility="WhileEditing"/>
+
+                <Label Text="{xct:Translate Categoria}" TextColor="White" FontSize="10" Grid.Row="2" VerticalOptions="Start"/>
+                <Entry Grid.Row="2" Text="{Binding Categoria3, Mode=TwoWay, TargetNullValue=Vuoto}" Keyboard="Chat" TextColor="White"  Grid.ColumnSpan="2" FontSize="30"  IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" ClearButtonVisibility="WhileEditing"/>
+
+                <Label Text="{xct:Translate Categoria}" TextColor="White" FontSize="10" Grid.Row="3" VerticalOptions="Start"/>
+                <Entry Grid.Row="3" Text="{Binding Categoria4, Mode=TwoWay, TargetNullValue=Vuoto}" Keyboard="Chat" TextColor="White"  Grid.ColumnSpan="2" FontSize="30"  IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" ClearButtonVisibility="WhileEditing"/>
+              
+
+                <Button Text="{xct:Translate Salva}" Grid.Row="5" Grid.Column="1" Command="{Binding SalvaCategorie}"  BackgroundColor="#1db954" Margin="0,0,-20,0" VerticalOptions="EndAndExpand"/>
+
+                <Button Text="{xct:Translate ANNULLA}" Grid.Row="5" Command="{Binding Esci}"  BackgroundColor="#1db954" Margin="-20,0,0,0" VerticalOptions="EndAndExpand"/>
+            </Grid>
+        </Frame>
+    </FlexLayout>
+    </ScrollView>
+
+</pages:PopupPage>

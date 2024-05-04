@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="it-IT" target-language="de" original="RESTART/LINGUE/RESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6916.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="RESTART/LINGUE/RESOURCES.RESX" datatype="resx">
+        <trans-unit id="Totale" translate="yes" xml:space="preserve">
+          <source>TOTALE: {0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">INSGESAMT: {0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="Categoria" translate="yes" xml:space="preserve">
+          <source>Categoria</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kategorie</target>
+        </trans-unit>
+        <trans-unit id="Cibo" translate="yes" xml:space="preserve">
+          <source>Cibo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Essen</target>
+        </trans-unit>
+        <trans-unit id="Trasporti" translate="yes" xml:space="preserve">
+          <source>Trasporti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Transport</target>
+        </trans-unit>
+        <trans-unit id="Cultura" translate="yes" xml:space="preserve">
+          <source>Cultura</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kultur</target>
+        </trans-unit>
+        <trans-unit id="Bellezza" translate="yes" xml:space="preserve">
+          <source>Bellezza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Schönheit</target>
+        </trans-unit>
+        <trans-unit id="Regali" translate="yes" xml:space="preserve">
+          <source>Regali</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geschenke</target>
+        </trans-unit>
+        <trans-unit id="Istruzione" translate="yes" xml:space="preserve">
+          <source>Istruzione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bildung</target>
+        </trans-unit>
+        <trans-unit id="Divertimenti" translate="yes" xml:space="preserve">
+          <source>Divertimenti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Unterhaltung</target>
+        </trans-unit>
+        <trans-unit id="Altro" translate="yes" xml:space="preserve">
+          <source>Altro</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sonstiges</target>
+        </trans-unit>
+        <trans-unit id="Categoria_Display" translate="yes" xml:space="preserve">
+          <source>● {0:F3}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">● {0:F3}</target>
+        </trans-unit>
+        <trans-unit id="Somma_Display" translate="yes" xml:space="preserve">
+          <source>{0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">{0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="Spesa_Massima" translate="yes" xml:space="preserve">
+          <source>Spesa più alta: {0:F2} €</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Höchste Ausgaben: {0:F2} €</target>
+        </trans-unit>
+        <trans-unit id="QUOTA" translate="yes" xml:space="preserve">
+          <source>QUOTA: {0:F2}</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">QUOTE: {0:F2}</target>
+        </trans-unit>
+        <trans-unit id="FILTRA" translate="yes" xml:space="preserve">
+          <source>Filtra</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Filtern</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA" translate="yes" xml:space="preserve">
+          <source>Elimina</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Löschen</target>
+        </trans-unit>
+        <trans-unit id="EDITA" translate="yes" xml:space="preserve">
+          <source>Edita</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Edita</target>
+        </trans-unit>
+        <trans-unit id="ORDINA" translate="yes" xml:space="preserve">
+          <source>Ordina per</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sortieren nach</target>
+        </trans-unit>
+        <trans-unit id="STATISTICHE" translate="yes" xml:space="preserve">
+          <source>Statistiche</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Statistik</target>
+        </trans-unit>
+        <trans-unit id="SOMMA" translate="yes" xml:space="preserve">
+          <source>Somma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Summe</target>
+        </trans-unit>
+        <trans-unit id="DATA" translate="yes" xml:space="preserve">
+          <source>Data</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Datum</target>
+        </trans-unit>
+        <trans-unit id="AZZERA" translate="yes" xml:space="preserve">
+          <source>Azzera filtri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Filter zurücksetzen</target>
+        </trans-unit>
+        <trans-unit id="CONFERMA" translate="yes" xml:space="preserve">
+          <source>Conferma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bestätigung</target>
+        </trans-unit>
+        <trans-unit id="ITALIANO" translate="yes" xml:space="preserve">
+          <source>Italiano</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Italienisch</target>
+        </trans-unit>
+        <trans-unit id="INGLESE" translate="yes" xml:space="preserve">
+          <source>Inglese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Englisch</target>
+        </trans-unit>
+        <trans-unit id="SPAGNOLO" translate="yes" xml:space="preserve">
+          <source>Spagnolo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spanisch</target>
+        </trans-unit>
+        <trans-unit id="TEMA" translate="yes" xml:space="preserve">
+          <source>Tema</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Thema</target>
+        </trans-unit>
+        <trans-unit id="LINGUA" translate="yes" xml:space="preserve">
+          <source>Lingua</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sprache</target>
+        </trans-unit>
+        <trans-unit id="INDIETRO" translate="yes" xml:space="preserve">
+          <source>Indietro</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zurück</target>
+        </trans-unit>
+        <trans-unit id="DONAZIONE" translate="yes" xml:space="preserve">
+          <source>Fai una donazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spenden</target>
+        </trans-unit>
+        <trans-unit id="IMPOSTAZIONI" translate="yes" xml:space="preserve">
+          <source>Impostazioni</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Einstellungen</target>
+        </trans-unit>
+        <trans-unit id="ASSISTENZA" translate="yes" xml:space="preserve">
+          <source>Assistenza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Pflege</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_CIFRA" translate="yes" xml:space="preserve">
+          <source>Inserisci una cifra!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine Zahl ein!</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_CATEGORIA" translate="yes" xml:space="preserve">
+          <source>Inserisci una categoria!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine Kategorie ein!</target>
+        </trans-unit>
+        <trans-unit id="SELEZIONA_SPESA" translate="yes" xml:space="preserve">
+          <source>Seleziona il tipo di spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wählen Sie die Art der Ausgaben aus</target>
+        </trans-unit>
+        <trans-unit id="ANNULLA" translate="yes" xml:space="preserve">
+          <source>Annulla</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Abbrechen</target>
+        </trans-unit>
+        <trans-unit id="SPESA_EFFETTUATA" translate="yes" xml:space="preserve">
+          <source>Spesa effettuata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ausgaben getätigt</target>
+        </trans-unit>
+        <trans-unit id="SPESA_DAEFFETTUARE" translate="yes" xml:space="preserve">
+          <source>Spesa da effettuare</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zu tätigen Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="NON" translate="yes" xml:space="preserve">
+          <source>Non puoi più inserire spese!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie können keine Gebühren mehr eingeben!</target>
+        </trans-unit>
+        <trans-unit id="CAMBIARE" translate="yes" xml:space="preserve">
+          <source>Cosa vuoi cambiare?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Was möchten Sie ändern?</target>
+        </trans-unit>
+        <trans-unit id="NOTA" translate="yes" xml:space="preserve">
+          <source>Nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hinweis</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_SOMMA" translate="yes" xml:space="preserve">
+          <source>Nuova somma</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neue Summe</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_CATEGORIA" translate="yes" xml:space="preserve">
+          <source>Nuova categoria</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Neue Kategorie</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_NOTA" translate="yes" xml:space="preserve">
+          <source>Modifica la nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Bearbeiten sie die Notiz</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_QUOTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una quota:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine Bemaßung ein:</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_NON" translate="yes" xml:space="preserve">
+          <source>Cifra non corretta!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Falsche Zahl!</target>
+        </trans-unit>
+        <trans-unit id="QUOTA_RAGGIUNTA" translate="yes" xml:space="preserve">
+          <source>Hai raggiunto la tua quota!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie haben Ihren Anteil erreicht!</target>
+        </trans-unit>
+        <trans-unit id="NO_DATA" translate="yes" xml:space="preserve">
+          <source>Non puoi inserire una data precedente ad oggi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie können kein datum früher als heute eingeben!</target>
+        </trans-unit>
+        <trans-unit id="CIFRA" translate="yes" xml:space="preserve">
+          <source>Cifra:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahl:</target>
+        </trans-unit>
+        <trans-unit id="COSA" translate="yes" xml:space="preserve">
+          <source>Cosa vuoi fare?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Was wollen Sie tun?</target>
+        </trans-unit>
+        <trans-unit id="SEGNA" translate="yes" xml:space="preserve">
+          <source>Segna come effettuata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Markieren Sie, wie durchgeführt</target>
+        </trans-unit>
+        <trans-unit id="AGGIUNGI_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Aggiungi un risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hinzufügen einer Ersparnis</target>
+        </trans-unit>
+        <trans-unit id="MODIFICA_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Modifica il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ändern Sie die Einsparungen</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA_SPESA" translate="yes" xml:space="preserve">
+          <source>Elimina la spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eliminieren Sie die Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI_SRISPARMIO" translate="yes" xml:space="preserve">
+          <source>Inserisci la somma del tuo risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie die Summe Ihrer Ersparnisse ein</target>
+        </trans-unit>
+        <trans-unit id="ELIMINA_RISPARMIO" translate="yes" xml:space="preserve">
+          <source>Elimina il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eliminieren Sie die Einsparungen</target>
+        </trans-unit>
+        <trans-unit id="CANCELLA" translate="yes" xml:space="preserve">
+          <source>Cancella</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Löschen</target>
+        </trans-unit>
+        <trans-unit id="CAMBIARE_ANCORA" translate="yes" xml:space="preserve">
+          <source>Vuoi cambiare ancora qualcosa?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Möchten Sie noch etwas ändern?</target>
+        </trans-unit>
+        <trans-unit id="ModificaRisparmio" translate="yes" xml:space="preserve">
+          <source>Modifica il risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ändern Sie die Einsparungen</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_NON_A" translate="yes" xml:space="preserve">
+          <source>Cifra non ammessa!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zahl nicht zulässig!</target>
+        </trans-unit>
+        <trans-unit id="NOTA:" translate="yes" xml:space="preserve">
+          <source>Nota:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hinweis:</target>
+        </trans-unit>
+        <trans-unit id="PUOI_NOTA" translate="yes" xml:space="preserve">
+          <source>Puoi inserire una nota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie können eine Notiz einfügen</target>
+        </trans-unit>
+        <trans-unit id="A/R" translate="yes" xml:space="preserve">
+          <source>Assegna / Riassegna spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zuweisen / Umschichten von Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="NUOVA_SOMMA_QUOTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una nuova somma per la tua quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine neue Summe für Ihren Anteil ein</target>
+        </trans-unit>
+        <trans-unit id="CIFRA_CORRETTA" translate="yes" xml:space="preserve">
+          <source>Inserisci una cifra corretta!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine korrekte Ziffer ein!</target>
+        </trans-unit>
+        <trans-unit id="GIORNI" translate="yes" xml:space="preserve">
+          <source>Giorni </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Tage </target>
+        </trans-unit>
+        <trans-unit id="VALUTA" translate="yes" xml:space="preserve">
+          <source>€ </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">€ </target>
+        </trans-unit>
+        <trans-unit id="DAPAGARE" translate="yes" xml:space="preserve">
+          <source>Da pagare</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zu zahlen</target>
+        </trans-unit>
+        <trans-unit id="INSERISCI" translate="yes" xml:space="preserve">
+          <source>Inserisci</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Einfügen</target>
+        </trans-unit>
+        <trans-unit id="LISTASPESE" translate="yes" xml:space="preserve">
+          <source>Lista spese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Spesenliste</target>
+        </trans-unit>
+        <trans-unit id="NESSUNASPESA" translate="yes" xml:space="preserve">
+          <source>Nessuna spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Keine Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="Abbigliamento" translate="yes" xml:space="preserve">
+          <source>Abbigliamento</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kleidung</target>
+        </trans-unit>
+        <trans-unit id="Salute" translate="yes" xml:space="preserve">
+          <source>Salute</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gesundheit</target>
+        </trans-unit>
+        <trans-unit id="SpeseIeri" translate="yes" xml:space="preserve">
+          <source>Spese di ieri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gestern es Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="SpeseOggi" translate="yes" xml:space="preserve">
+          <source>Spese di oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heute es Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="AScelta" translate="yes" xml:space="preserve">
+          <source>A scelta</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Nach Wahl</target>
+        </trans-unit>
+        <trans-unit id="GestisciQuota" translate="yes" xml:space="preserve">
+          <source>Gestisci la tua quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verwalten Sie Ihren Anteil</target>
+        </trans-unit>
+        <trans-unit id="Giornaliera" translate="yes" xml:space="preserve">
+          <source>Giornaliera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Täglich</target>
+        </trans-unit>
+        <trans-unit id="Mensile" translate="yes" xml:space="preserve">
+          <source>Mensile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Monatlich</target>
+        </trans-unit>
+        <trans-unit id="CategorieAggiuntive" translate="yes" xml:space="preserve">
+          <source>Categorie aggiuntive</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zusätzliche Kategorien</target>
+        </trans-unit>
+        <trans-unit id="AttivaMappa" translate="yes" xml:space="preserve">
+          <source>Attiva la localizzazione delle spese e poi registra la spesa!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aktivieren Sie die Kostenlokalisierung und buchen Sie dann die Ausgaben!</target>
+        </trans-unit>
+        <trans-unit id="RisparmiRimanente" translate="yes" xml:space="preserve">
+          <source>Risparmi - Rimanente</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Einsparungen - Rest</target>
+        </trans-unit>
+        <trans-unit id="SpesaDaSostenere" translate="yes" xml:space="preserve">
+          <source>Spesa da sostenere</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zu tragenden Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="DataScadenza" translate="yes" xml:space="preserve">
+          <source>Data di scadenza</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ablaufdatum</target>
+        </trans-unit>
+        <trans-unit id="Dona" translate="yes" xml:space="preserve">
+          <source>Dona</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Dona</target>
+        </trans-unit>
+        <trans-unit id="GiorniRimanenti" translate="yes" xml:space="preserve">
+          <source>Giorni rimanenti</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verbleibende Tage</target>
+        </trans-unit>
+        <trans-unit id="Ieri" translate="yes" xml:space="preserve">
+          <source>Ieri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Gestern</target>
+        </trans-unit>
+        <trans-unit id="Localizzazione" translate="yes" xml:space="preserve">
+          <source>Localizzazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lokalisierung</target>
+        </trans-unit>
+        <trans-unit id="MessaggioDonazione" translate="yes" xml:space="preserve">
+          <source>Se vuoi sostenere il progetto dona qui</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wenn Sie das Projekt unterstützen möchten, spenden Sie hier</target>
+        </trans-unit>
+        <trans-unit id="NumeroSpese" translate="yes" xml:space="preserve">
+          <source>Numero di spese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anzahl der Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="Oggi" translate="yes" xml:space="preserve">
+          <source>Oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heute</target>
+        </trans-unit>
+        <trans-unit id="Orario" translate="yes" xml:space="preserve">
+          <source>Orario notifica</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Benachrichtigungszeit</target>
+        </trans-unit>
+        <trans-unit id="Quanto" translate="yes" xml:space="preserve">
+          <source>Quanto pensi di spendere oggi?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Wie viel denken Sie, dass Sie heute ausgeben?</target>
+        </trans-unit>
+        <trans-unit id="QuotaLibera" translate="yes" xml:space="preserve">
+          <source>Quota libera</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Freie Quote</target>
+        </trans-unit>
+        <trans-unit id="QuotaMensile" translate="yes" xml:space="preserve">
+          <source>Quota mensile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Monatliche Quote</target>
+        </trans-unit>
+        <trans-unit id="Rimanenza" translate="yes" xml:space="preserve">
+          <source>Rimanenza disponibile</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Verfügbarer Rest</target>
+        </trans-unit>
+        <trans-unit id="Risparmio" translate="yes" xml:space="preserve">
+          <source>Risparmio</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sparen</target>
+        </trans-unit>
+        <trans-unit id="Salva" translate="yes" xml:space="preserve">
+          <source>Salva</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Save</target>
+        </trans-unit>
+        <trans-unit id="SpesaMassima" translate="yes" xml:space="preserve">
+          <source>Spesa massima</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Maximale Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="SpeseMese" translate="yes" xml:space="preserve">
+          <source>Spese di questo mese</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">In diesem Monat es Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="SpeseMesePrecedente" translate="yes" xml:space="preserve">
+          <source>Spese del mese scorso</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Letzten Monat es Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="SpeseSettimana" translate="yes" xml:space="preserve">
+          <source>Spese di questa settimana</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Diese Woche es Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="TettoSpesa" translate="yes" xml:space="preserve">
+          <source>Tetto di spesa</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ausgabenobergrenze</target>
+        </trans-unit>
+        <trans-unit id="TotaleRisparmi" translate="yes" xml:space="preserve">
+          <source>Totale risparmi:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Einsparungen insgesamt:</target>
+        </trans-unit>
+        <trans-unit id="TotaleSpese" translate="yes" xml:space="preserve">
+          <source>Totale spese: </source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ausgaben insgesamt: </target>
+        </trans-unit>
+        <trans-unit id="BudgetOggi" translate="yes" xml:space="preserve">
+          <source>Budget di oggi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Heute es Budget</target>
+        </trans-unit>
+        <trans-unit id="Hey" translate="yes" xml:space="preserve">
+          <source>Hey</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Hey</target>
+        </trans-unit>
+        <trans-unit id="Ricordati" translate="yes" xml:space="preserve">
+          <source>Ricordati di registrare le tue spese!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Denken Sie daran, Ihre Ausgaben aufzuzeichnen!</target>
+        </trans-unit>
+        <trans-unit id="Rimanente" translate="yes" xml:space="preserve">
+          <source>Rimanente</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Rest</target>
+        </trans-unit>
+        <trans-unit id="TotaleQuestoMese" translate="yes" xml:space="preserve">
+          <source>Totale di questo mese:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Insgesamt in diesem Monat:</target>
+        </trans-unit>
+        <trans-unit id="Errore" translate="yes" xml:space="preserve">
+          <source>Errore</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Fehler</target>
+        </trans-unit>
+        <trans-unit id="MeseProssimo" translate="yes" xml:space="preserve">
+          <source>ci vediamo il mese prossimo!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">wir sehen uns nächsten Monat!</target>
+        </trans-unit>
+        <trans-unit id="NoAttivato" translate="yes" xml:space="preserve">
+          <source>Devi attivare il gps!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie müssen gps aktivieren!</target>
+        </trans-unit>
+        <trans-unit id="NonTrovo" translate="yes" xml:space="preserve">
+          <source>Non riesco a capire dove sei!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ich kann nicht verstehen, wo du bist!</target>
+        </trans-unit>
+        <trans-unit id="NoPermessi" translate="yes" xml:space="preserve">
+          <source>Devi dare i permessi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie müssen Genehmigungen erteilen!</target>
+        </trans-unit>
+        <trans-unit id="NoSupporto" translate="yes" xml:space="preserve">
+          <source>Mi dispiace, il tuo dispositivo non supporta questa funzionalita'</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Es tut mir leid, Ihr Gerät unterstützt diese Funktion nicht</target>
+        </trans-unit>
+        <trans-unit id="QuotaRaggiunta" translate="yes" xml:space="preserve">
+          <source>Hai raggiunto la tua quota prefissata!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sie haben Ihren vorgegebenen Anteil erreicht!</target>
+        </trans-unit>
+        <trans-unit id="QuotaScaduta" translate="yes" xml:space="preserve">
+          <source>La quota di questo mese e'scaduta! Hai risparmiato</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Die Quote in diesem Monat ist abgelaufen! Sie haben gespart</target>
+        </trans-unit>
+        <trans-unit id="Categorie" translate="yes" xml:space="preserve">
+          <source>Categorie</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Kategorien</target>
+        </trans-unit>
+        <trans-unit id="Lingue" translate="yes" xml:space="preserve">
+          <source>Lingue</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Sprachen</target>
+        </trans-unit>
+        <trans-unit id="Accedi" translate="yes" xml:space="preserve">
+          <source>Accedi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anmelden</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Autenticazione" translate="yes" xml:space="preserve">
+          <source>Autenticazione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Authentifizierung</target>
+        </trans-unit>
+        <trans-unit id="AutenticazioneFallita" translate="yes" xml:space="preserve">
+          <source>Autenticazione fallita</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Authentifizierung fehlgeschlagen</target>
+        </trans-unit>
+        <trans-unit id="ErroreAutenticazione" translate="yes" xml:space="preserve">
+          <source>L' autenticazione biometrica non e' disponibile o non e' configurata.</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Die biometrische Authentifizierung ist nicht verfügbar oder nicht konfiguriert.</target>
+        </trans-unit>
+        <trans-unit id="FissaQuota" translate="yes" xml:space="preserve">
+          <source>Fissa una quota</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Festlegung einer Quote</target>
+        </trans-unit>
+        <trans-unit id="GestisciRisparmi" translate="yes" xml:space="preserve">
+          <source>Ma pensa anche ai tuoi risparmi!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Aber denken Sie auch an Ihre Ersparnisse!</target>
+        </trans-unit>
+        <trans-unit id="Inizia" translate="yes" xml:space="preserve">
+          <source>Iniziamo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Lassen Sie es beginnen</target>
+        </trans-unit>
+        <trans-unit id="RegistraSpese" translate="yes" xml:space="preserve">
+          <source>Registra le tue spese e tienine traccia!</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registrieren Sie Ihre Ausgaben und verfolgen Sie sie!</target>
+        </trans-unit>
+        <trans-unit id="Sblocco" translate="yes" xml:space="preserve">
+          <source>Sblocco con impronta</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Entsperren mit Fußabdruck</target>
+        </trans-unit>
+        <trans-unit id="Esci" translate="yes" xml:space="preserve">
+          <source>Esci</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Raus</target>
+        </trans-unit>
+        <trans-unit id="SpesaAssegnata" translate="yes" xml:space="preserve">
+          <source>Spesa assegnata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Zugeteilte Ausgaben</target>
+        </trans-unit>
+        <trans-unit id="AccountEsistente" translate="yes" xml:space="preserve">
+          <source>Esiste gia' un account associato a questa email</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Es gibt bereits ein Konto, das dieser E-Mail zugeordnet ist.</target>
+        </trans-unit>
+        <trans-unit id="CMaiuscolo" translate="yes" xml:space="preserve">
+          <source>Un carattere maiuscolo</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ein Großbuchstaben</target>
+        </trans-unit>
+        <trans-unit id="Codice" translate="yes" xml:space="preserve">
+          <source>Il tuo codice e'</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ihr Code ist</target>
+        </trans-unit>
+        <trans-unit id="ConfermaPassword" translate="yes" xml:space="preserve">
+          <source>Conferma Password:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passwort bestätigen:</target>
+        </trans-unit>
+        <trans-unit id="CredenzialiErrate" translate="yes" xml:space="preserve">
+          <source>Le credenziali sono errate</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anmeldeinformationen sind falsch</target>
+        </trans-unit>
+        <trans-unit id="CSpeciale" translate="yes" xml:space="preserve">
+          <source>Un carattere speciale</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Ein besonderes Zeichen</target>
+        </trans-unit>
+        <trans-unit id="DatiNonCorretti" translate="yes" xml:space="preserve">
+          <source>Inserisci correttamente i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daten korrekt eingeben</target>
+        </trans-unit>
+        <trans-unit id="EmailValida" translate="yes" xml:space="preserve">
+          <source>Inserisci una email valida</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine gültige E-Mail ein</target>
+        </trans-unit>
+        <trans-unit id="IndirizzoValido" translate="yes" xml:space="preserve">
+          <source>Inserisci un indirizzo valido</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie eine gültige Adresse ein</target>
+        </trans-unit>
+        <trans-unit id="InserisciCodice" translate="yes" xml:space="preserve">
+          <source>inserisci il codice inviato:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Geben Sie den gesendeten Code ein:</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="InserisciDatiRegistrazione" translate="yes" xml:space="preserve">
+          <source>Inserisci i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daten eingeben</target>
+        </trans-unit>
+        <trans-unit id="Invia" translate="yes" xml:space="preserve">
+          <source>Invia</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Senden</target>
+        </trans-unit>
+        <trans-unit id="MostraPassword" translate="yes" xml:space="preserve">
+          <source>Mostra password</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passwort anzeigen</target>
+        </trans-unit>
+        <trans-unit id="Numero" translate="yes" xml:space="preserve">
+          <source>Un numero</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Eine Zahl</target>
+        </trans-unit>
+        <trans-unit id="PasswordDimenticata" translate="yes" xml:space="preserve">
+          <source>Password dimenticata?</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Passwort vergessen?</target>
+        </trans-unit>
+        <trans-unit id="Registrazione" translate="yes" xml:space="preserve">
+          <source>Registrati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Registrieren</target>
+        </trans-unit>
+        <trans-unit id="RichiestePassword" translate="yes" xml:space="preserve">
+          <source>La password deve contenere almeno:</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Das Kennwort muss mindestens Folgendes enthalten:</target>
+        </trans-unit>
+        <trans-unit id="String1" translate="yes" xml:space="preserve">
+          <source>Accedi</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Anmelden</target>
+        </trans-unit>
+        <trans-unit id="EmailInviata" translate="yes" xml:space="preserve">
+          <source>Email inviata</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">E-Mail gesendet</target>
+        </trans-unit>
+        <trans-unit id="InserisciDatiCorretti" translate="yes" xml:space="preserve">
+          <source>Inserisci correttamente i dati</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Daten korrekt eingeben</target>
+        </trans-unit>
+        <trans-unit id="NoConnessione" translate="yes" xml:space="preserve">
+          <source>Nessuna connessione</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">Keine Verbindung</target>
+        </trans-unit>
+        <trans-unit id="Caratteri" translate="yes" xml:space="preserve">
+          <source>10-40 caratteri</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">10-40 Zeichen</target>
+        </trans-unit>
+        <trans-unit id="AccountNonPresente" translate="yes" xml:space="preserve">
+          <source>L'email non e' associata a nessun account</source>
+          <target state="needs-review-translation" state-qualifier="mt-suggestion">E-Mail ist keinem Konto zugeordnet</target>
+        </trans-unit>
+        <trans-unit id="LogOut" translate="yes" xml:space="preserve">
+          <source>Esci</source>
+          <target state="new">Esci</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

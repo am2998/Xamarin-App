@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.Filtro"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+                 xmlns:Risorsa="clr-namespace:Restart.Lingue"
+                 xmlns:viewModels="clr-namespace:Restart.ViewModels"
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+                 >
+  
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+    <ScrollView>
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,30,0,0">
+        
+            <Frame Padding="0,0,0,0" HeightRequest="500"  WidthRequest="350"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1db954">
+           
+           
+                <Grid Margin="20,0,10,0" ColumnSpacing="-10" ColumnDefinitions="*,*"  >
+               
+                <Label Text="{xct:Translate SOMMA}" TextColor="White" Grid.Row="1"  Grid.ColumnSpan="2" 
+                               FontSize="Large" VerticalOptions="Center"/>
+
+                    <Entry x:Name="SommaFiltrata"  Text="{Binding Somma, Mode=TwoWay}"   Grid.Column="2" Grid.ColumnSpan="2"
+                               VerticalOptions="Center" HorizontalTextAlignment="Center" FontSize="Large"  
+                                 Grid.Row="1" Keyboard="Numeric" TextColor="White"   IsSpellCheckEnabled="True" IsTextPredictionEnabled="True" ClearButtonVisibility="WhileEditing"/>
+
+
+                    <Label Text="{xct:Translate Categoria}" TextColor="White" Grid.Row="4" Grid.ColumnSpan="2"
+                           FontSize="Large" VerticalOptions="Center"/>
+
+                <Label x:Name="CategoriaFiltrata" Text="{Binding Scelta}"  Grid.Column="2" Grid.ColumnSpan="2" FontSize="20"
+                                   Grid.Row="4" HorizontalTextAlignment="Center" VerticalOptions="Center" TextColor="White"  >
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding ApriCategorie}"/>
+                    </Label.GestureRecognizers> 
+                </Label>
+                    
+
+                    <Button Text="{xct:Translate AZZERA}" TextColor="White" Clicked="AnnullaFiltraggio"  Grid.Row="6" Grid.ColumnSpan="2" BackgroundColor="#1db954"  VerticalOptions="EndAndExpand" Margin="-20,0,0,0"/>
+
+                    <Button Text="{xct:Translate CONFERMA}" TextColor="White" Clicked ="FiltraLista"  Grid.Row="6" Grid.Column="2" Grid.ColumnSpan="2" BackgroundColor="#1db954" VerticalOptions="EndAndExpand" Margin="0,0,-10,0"/>
+
+              
+
+
+            </Grid>
+
+            </Frame>
+        </FlexLayout>
+    </ScrollView>
+
+</pages:PopupPage>

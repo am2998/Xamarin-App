@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    
+     
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.PaginaImpostazioni"
+             xmlns:Risorsa ="clr-namespace:Restart.Lingue"
+             xmlns:reactiveui="clr-namespace:ReactiveUI.XamForms;assembly=ReactiveUI.XamForms"
+             xmlns:vm ="clr-namespace:Restart.ViewModels"
+             Shell.NavBarIsVisible="False"
+    xmlns:xct ="http://xamarin.com/schemas/2020/toolkit">
+
+
+
+    <FlexLayout AlignContent="Center" Direction="Column" BackgroundColor="#121212" JustifyContent="SpaceAround" >
+
+            <Grid Margin="20" >
+                
+                <Label  Grid.ColumnSpan="8" Text="{xct:Translate Localizzazione}"  VerticalOptions="Center" FontSize="25" TextColor="White" HorizontalTextAlignment="Start"/>
+            <Switch x:Name="Mappa" Grid.Column="8" Grid.ColumnSpan="2" HorizontalOptions="End" ThumbColor="#1DB954" IsToggled="{Binding Attivazione}"/>
+                
+                <Label Grid.Row="2" Grid.ColumnSpan="4" Text="{xct:Translate LINGUA}" FontSize="25" VerticalOptions="Center" TextColor="White" />
+            <Label x:Name="SceltaLingua" Text="{Binding Lingua}"  Grid.Column="6" Grid.ColumnSpan="4" Grid.Row="2" TextColor="White" 
+                            HorizontalTextAlignment="Center" VerticalOptions="Center"   FontSize="25" HorizontalOptions="End">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="CambiaLingua"/>
+                </Label.GestureRecognizers>
+            </Label>
+
+            <Label  Grid.ColumnSpan="8" Grid.Row="6" Text="{xct:Translate Sblocco}"  VerticalOptions="Center" FontSize="25" TextColor="White" HorizontalTextAlignment="Start"/>
+            <Switch Grid.Column="8" Grid.Row="6" Grid.ColumnSpan="2" HorizontalOptions="End" ThumbColor="#1DB954" IsToggled="{Binding Sblocco}"/>
+
+            <Label Grid.Row="4" Text="{xct:Translate Orario}" Grid.ColumnSpan="8" FontSize="25" VerticalOptions="Center" TextColor="White" />
+            <TimePicker Grid.Row="4" Time="{Binding Orario, Mode=TwoWay}" Grid.Column="6" VerticalOptions="Center" Grid.ColumnSpan="4" FontSize="30" TextColor="White" HorizontalOptions="End" />
+
+
+            <Button Grid.Row="8" Grid.Column="3" Grid.ColumnSpan="4" TextColor="White"  Text="{xct:Translate Salva}" Command="{Binding SalvaImpostazioni}" BackgroundColor ="#121212" />
+
+            </Grid>
+
+
+        </FlexLayout>
+  
+</ContentPage>

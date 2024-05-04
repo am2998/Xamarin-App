@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.FormQuota"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+                 xmlns:Risorsa="clr-namespace:Restart.Lingue"
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+    <ScrollView>
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,30,0,0">
+
+        <Frame Padding="0,0,0,0" HeightRequest="550"  WidthRequest="400"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1DB954">
+            <Grid Margin="15,30,15,0" ColumnSpacing="-10">
+
+                <Label x:Name="Titolo" FontSize="Title" HorizontalOptions="Center" Grid.Column="1" Grid.ColumnSpan="4" TextColor="#ffffff" />
+                <Label Text="{xct:Translate TettoSpesa}" FontSize="Small" Grid.ColumnSpan="3" Grid.Row="1"/>
+                <Entry Text="{Binding TettoSpesa, Mode=TwoWay, TargetNullValue=0 }"  Keyboard="Numeric" Grid.ColumnSpan="2"  HorizontalTextAlignment="Center" MaxLength="5" TextColor="White" Grid.Row="1"/>
+
+                <Label Text="{xct:Translate DataScadenza}" FontSize="Small" Grid.Column="3" Grid.ColumnSpan="3" Grid.Row="1" HorizontalOptions="End"/>
+                <DatePicker Date="{Binding DataScelta, Mode=TwoWay}" MinimumDate="{Binding DataMinima}" Grid.Column="4" Grid.ColumnSpan="2" 
+                            TextColor="White" Grid.Row="1"/>
+
+                <Label Text="{xct:Translate Rimanenza}" FontSize="Small" Grid.Row="3" Grid.ColumnSpan="3"/>
+                <Label Text="{Binding Rimanenza, StringFormat='{0} €', TargetNullValue=0 €}" Grid.Row="3" Grid.ColumnSpan="2" FontSize="20" HorizontalOptions="Center" VerticalOptions="Center"  TextColor="{Binding Progresso}"/>
+
+                <Label Text="{xct:Translate GiorniRimanenti}" FontSize="Small" Grid.Column="4" Grid.Row="3" Grid.ColumnSpan="2" HorizontalOptions="Start"/>
+                <Label Text="{Binding GiorniMancanti}" Grid.Row="3" Grid.Column="4" Grid.ColumnSpan="2" FontSize="20" TextColor="White" VerticalOptions="Center" />
+
+                <Label Text="{Binding Testo}" TextColor="White" Grid.Row="4" FontSize="15" HorizontalOptions="Center" HorizontalTextAlignment="Center" IsVisible="{Binding Mostra}" Grid.ColumnSpan="6"/>
+
+                <Button Text="{xct:Translate Salva}" Command="{Binding SalvaQuota}" Grid.Column="2" Grid.Row="5" Grid.ColumnSpan="2" BackgroundColor="#1db954" VerticalOptions="EndAndExpand"/>
+                <Button Text="{xct:Translate ELIMINA}" Command="{Binding EliminaQuota}"  Grid.Row="5" Grid.ColumnSpan="2" BackgroundColor="#1db954" VerticalOptions="EndAndExpand" Margin="-15,0,0,0"/>
+                <Button Text="{xct:Translate Esci}" Clicked="TornaIndietro"  Grid.Row="5" Grid.Column="4" Grid.ColumnSpan="2" BackgroundColor="#1db954" VerticalOptions="EndAndExpand" Margin="0,0,-15,0" />
+                
+
+            </Grid>
+        </Frame>
+    </FlexLayout>
+    </ScrollView>
+</pages:PopupPage>
+              

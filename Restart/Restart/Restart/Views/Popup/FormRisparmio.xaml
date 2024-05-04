@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Restart.Views.FormRisparmio"
+              xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+             xmlns:animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+             BackgroundColor="Transparent"
+                 xmlns:Risorsa="clr-namespace:Restart.Lingue"
+                 xmlns:viewModels="clr-namespace:Restart.ViewModels"
+                 xmlns:xct="http://xamarin.com/schemas/2020/toolkit">
+
+    <pages:PopupPage.Animation>
+        <animations:ScaleAnimation 
+            PositionIn="Center"
+            PositionOut="Center"
+            ScaleIn="1.2"
+            ScaleOut="0.8"
+            DurationIn="300"
+            DurationOut="300"
+            EasingIn="SinOut"
+            EasingOut="SinIn"
+            HasBackgroundAnimation="True"/>
+    </pages:PopupPage.Animation>
+
+
+    <ScrollView>
+    <FlexLayout AlignItems="Center" Direction="Column" Padding="0,20,0,0">
+        <Frame Padding="0,0,0,0" HeightRequest="600"  WidthRequest="350"  BackgroundColor="#121212"  CornerRadius="20" BorderColor="#1db954">
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="-10" >
+
+     
+
+            <Label Text="{xct:Translate SOMMA}" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+
+            <Label Text="{xct:Translate NOTA}"   Grid.Column="1" TextColor="White" HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+
+                <Entry Text="{Binding Risparmio.Somma, Mode=TwoWay}"  TextColor="White" Grid.Row="1" Keyboard="Numeric" Margin="10,0" HorizontalTextAlignment="Center" ClearButtonVisibility="WhileEditing" VerticalOptions="StartAndExpand"/>
+
+            <Entry Text="{Binding Risparmio.Nota, Mode=TwoWay}"  TextColor="White" Grid.Row="1" Grid.Column="1" ClearButtonVisibility="WhileEditing" IsTextPredictionEnabled="True" IsSpellCheckEnabled="True" Keyboard="Chat"
+                    HorizontalTextAlignment="Center"  Margin="10,0"  VerticalOptions="StartAndExpand"/>
+
+                <Button Text="{xct:Translate ELIMINA_RISPARMIO}" Clicked="Elimina" Grid.Row="2" Grid.Column="1"  BackgroundColor="#121212" FontSize="12" VerticalOptions="StartAndExpand"/>
+                <Button Text="{xct:Translate A/R}" Clicked="Assegna" Grid.Row="2" BackgroundColor="#121212" FontSize="12" VerticalOptions="StartAndExpand"/>
+
+
+                    <Label Text="{xct:Translate SpesaAssegnata}" Grid.Row="3" VerticalOptions="Start" FontSize="20" Grid.ColumnSpan="2" HorizontalOptions="Center" TextColor="White"/>
+
+                    <Label Text="{Binding Spesa.Somma}" TextColor="White" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="3" FontSize="20" />
+                <Label Text="{Binding Spesa.Categoria}" TextColor="White" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Grid.Row="3" Grid.Column="1" FontSize="20"/>
+
+
+
+
+                <Button Text="{xct:Translate ANNULLA}" Clicked="Annulla"   Grid.Row="4" TextColor="White" VerticalOptions="EndAndExpand"/>
+
+                <Button  Clicked="Salva"  Text="{xct:Translate Salva}"   Grid.Row="4" Grid.Column="1" TextColor="White" VerticalOptions="EndAndExpand"/>
+            </Grid>
+
+        </Frame>
+    </FlexLayout>
+    </ScrollView>
+
+</pages:PopupPage>

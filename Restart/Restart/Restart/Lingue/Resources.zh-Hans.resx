@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Totale" xml:space="preserve">
+    <value>总计： [0：F2] €</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Cibo" xml:space="preserve">
+    <value>食物</value>
+  </data>
+  <data name="Trasporti" xml:space="preserve">
+    <value>运输</value>
+  </data>
+  <data name="Cultura" xml:space="preserve">
+    <value>文化</value>
+  </data>
+  <data name="Bellezza" xml:space="preserve">
+    <value>美</value>
+  </data>
+  <data name="Regali" xml:space="preserve">
+    <value>礼物</value>
+  </data>
+  <data name="Istruzione" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="Divertimenti" xml:space="preserve">
+    <value>娱乐</value>
+  </data>
+  <data name="Altro" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Categoria_Display" xml:space="preserve">
+    <value>• [0：F3]</value>
+  </data>
+  <data name="Somma_Display" xml:space="preserve">
+    <value>[0：F2] €</value>
+  </data>
+  <data name="Spesa_Massima" xml:space="preserve">
+    <value>最高支出： [0：F2] €</value>
+  </data>
+  <data name="QUOTA" xml:space="preserve">
+    <value>配额： [0：F2]</value>
+  </data>
+  <data name="FILTRA" xml:space="preserve">
+    <value>滤波器</value>
+  </data>
+  <data name="ELIMINA" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="EDITA" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="ORDINA" xml:space="preserve">
+    <value>排序由</value>
+  </data>
+  <data name="STATISTICHE" xml:space="preserve">
+    <value>统计学</value>
+  </data>
+  <data name="SOMMA" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="AZZERA" xml:space="preserve">
+    <value>重置过滤器</value>
+  </data>
+  <data name="CONFERMA" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="ITALIANO" xml:space="preserve">
+    <value>意大利语</value>
+  </data>
+  <data name="INGLESE" xml:space="preserve">
+    <value>英语</value>
+  </data>
+  <data name="SPAGNOLO" xml:space="preserve">
+    <value>西班牙语</value>
+  </data>
+  <data name="TEMA" xml:space="preserve">
+    <value>主题</value>
+  </data>
+  <data name="LINGUA" xml:space="preserve">
+    <value>舌</value>
+  </data>
+  <data name="INDIETRO" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="DONAZIONE" xml:space="preserve">
+    <value>捐款</value>
+  </data>
+  <data name="IMPOSTAZIONI" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="ASSISTENZA" xml:space="preserve">
+    <value>援助</value>
+  </data>
+  <data name="INSERISCI_CIFRA" xml:space="preserve">
+    <value>输入数字！</value>
+  </data>
+  <data name="INSERISCI_CATEGORIA" xml:space="preserve">
+    <value>输入类别！</value>
+  </data>
+  <data name="SELEZIONA_SPESA" xml:space="preserve">
+    <value>选择费用类型</value>
+  </data>
+  <data name="ANNULLA" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="SPESA_EFFETTUATA" xml:space="preserve">
+    <value>支出</value>
+  </data>
+  <data name="SPESA_DAEFFETTUARE" xml:space="preserve">
+    <value>支出</value>
+  </data>
+  <data name="NON" xml:space="preserve">
+    <value>您不能再输入费用！</value>
+  </data>
+  <data name="CAMBIARE" xml:space="preserve">
+    <value>你想改变什么？</value>
+  </data>
+  <data name="NOTA" xml:space="preserve">
+    <value>注意</value>
+  </data>
+  <data name="NUOVA_SOMMA" xml:space="preserve">
+    <value>新金额</value>
+  </data>
+  <data name="NUOVA_CATEGORIA" xml:space="preserve">
+    <value>新类别</value>
+  </data>
+  <data name="NUOVA_NOTA" xml:space="preserve">
+    <value>编辑说明</value>
+  </data>
+  <data name="INSERISCI_QUOTA" xml:space="preserve">
+    <value>输入一个维度：</value>
+  </data>
+  <data name="CIFRA_NON" xml:space="preserve">
+    <value>不正确的数字！</value>
+  </data>
+  <data name="QUOTA_RAGGIUNTA" xml:space="preserve">
+    <value>你已经达到了你的配额！</value>
+  </data>
+  <data name="NO_DATA" xml:space="preserve">
+    <value>你不能比今天更早进入约会！</value>
+  </data>
+  <data name="CIFRA" xml:space="preserve">
+    <value>数字：</value>
+  </data>
+  <data name="COSA" xml:space="preserve">
+    <value>你想做什么？</value>
+  </data>
+  <data name="SEGNA" xml:space="preserve">
+    <value>标记完成</value>
+  </data>
+  <data name="AGGIUNGI_RISPARMIO" xml:space="preserve">
+    <value>添加保存</value>
+  </data>
+  <data name="MODIFICA_RISPARMIO" xml:space="preserve">
+    <value>更改节省</value>
+  </data>
+  <data name="ELIMINA_SPESA" xml:space="preserve">
+    <value>消除支出</value>
+  </data>
+  <data name="INSERISCI_SRISPARMIO" xml:space="preserve">
+    <value>输入您的储蓄总额</value>
+  </data>
+  <data name="ELIMINA_RISPARMIO" xml:space="preserve">
+    <value>消除储蓄</value>
+  </data>
+  <data name="CANCELLA" xml:space="preserve">
+    <value>清楚</value>
+  </data>
+  <data name="CAMBIARE_ANCORA" xml:space="preserve">
+    <value>你想改变更多吗？</value>
+  </data>
+  <data name="ModificaRisparmio" xml:space="preserve">
+    <value>更改节省</value>
+  </data>
+  <data name="CIFRA_NON_A" xml:space="preserve">
+    <value>图不允许！</value>
+  </data>
+  <data name="NOTA:" xml:space="preserve">
+    <value>注意：</value>
+  </data>
+  <data name="PUOI_NOTA" xml:space="preserve">
+    <value>您可以插入注释</value>
+  </data>
+  <data name="A/R" xml:space="preserve">
+    <value>分配/重新分配费用</value>
+  </data>
+  <data name="NUOVA_SOMMA_QUOTA" xml:space="preserve">
+    <value>输入新的份额金额</value>
+  </data>
+  <data name="CIFRA_CORRETTA" xml:space="preserve">
+    <value>输入正确的数字！</value>
+  </data>
+  <data name="GIORNI" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="VALUTA" xml:space="preserve">
+    <value>€</value>
+  </data>
+  <data name="DAPAGARE" xml:space="preserve">
+    <value>支付</value>
+  </data>
+  <data name="INSERISCI" xml:space="preserve">
+    <value>进入</value>
+  </data>
+  <data name="LISTASPESE" xml:space="preserve">
+    <value>费用清单</value>
+  </data>
+  <data name="NESSUNASPESA" xml:space="preserve">
+    <value>不收费</value>
+  </data>
+  <data name="Abbigliamento" xml:space="preserve">
+    <value>服装</value>
+  </data>
+  <data name="Salute" xml:space="preserve">
+    <value>保佑你</value>
+  </data>
+  <data name="SpeseIeri" xml:space="preserve">
+    <value>昨天的费用</value>
+  </data>
+  <data name="SpeseOggi" xml:space="preserve">
+    <value>今天的开支</value>
+  </data>
+  <data name="AScelta" xml:space="preserve">
+    <value>您的选择</value>
+  </data>
+  <data name="GestisciQuota" xml:space="preserve">
+    <value>管理您的配额</value>
+  </data>
+  <data name="Giornaliera" xml:space="preserve">
+    <value>日常</value>
+  </data>
+  <data name="Mensile" xml:space="preserve">
+    <value>每月</value>
+  </data>
+  <data name="CategorieAggiuntive" xml:space="preserve">
+    <value>其他类别</value>
+  </data>
+  <data name="AttivaMappa" xml:space="preserve">
+    <value>激活费用的位置，然后记录费用！</value>
+  </data>
+  <data name="RisparmiRimanente" xml:space="preserve">
+    <value>节省 - 剩余</value>
+  </data>
+  <data name="SpesaDaSostenere" xml:space="preserve">
+    <value>支出</value>
+  </data>
+  <data name="DataScadenza" xml:space="preserve">
+    <value>有效期</value>
+  </data>
+  <data name="Dona" xml:space="preserve">
+    <value>给</value>
+  </data>
+  <data name="GiorniRimanenti" xml:space="preserve">
+    <value>剩余天数</value>
+  </data>
+  <data name="Ieri" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="Localizzazione" xml:space="preserve">
+    <value>地方化</value>
+  </data>
+  <data name="MessaggioDonazione" xml:space="preserve">
+    <value>如果您想支持该项目，请在此处捐赠</value>
+  </data>
+  <data name="NumeroSpese" xml:space="preserve">
+    <value>支出数目</value>
+  </data>
+  <data name="Oggi" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Orario" xml:space="preserve">
+    <value>通知时间</value>
+  </data>
+  <data name="Quanto" xml:space="preserve">
+    <value>你今天打算花多少钱？</value>
+  </data>
+  <data name="QuotaLibera" xml:space="preserve">
+    <value>免费配额</value>
+  </data>
+  <data name="QuotaMensile" xml:space="preserve">
+    <value>月费</value>
+  </data>
+  <data name="Rimanenza" xml:space="preserve">
+    <value>可用剩余部分</value>
+  </data>
+  <data name="Risparmio" xml:space="preserve">
+    <value>储蓄</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>敬礼</value>
+  </data>
+  <data name="SpesaMassima" xml:space="preserve">
+    <value>最大支出</value>
+  </data>
+  <data name="SpeseMese" xml:space="preserve">
+    <value>本月的费用</value>
+  </data>
+  <data name="SpeseMesePrecedente" xml:space="preserve">
+    <value>上个月的费用</value>
+  </data>
+  <data name="SpeseSettimana" xml:space="preserve">
+    <value>本周的费用</value>
+  </data>
+  <data name="TettoSpesa" xml:space="preserve">
+    <value>支出上限</value>
+  </data>
+  <data name="TotaleRisparmi" xml:space="preserve">
+    <value>节省总额：</value>
+  </data>
+  <data name="TotaleSpese" xml:space="preserve">
+    <value>总支出：</value>
+  </data>
+  <data name="BudgetOggi" xml:space="preserve">
+    <value>今天的预算</value>
+  </data>
+  <data name="Hey" xml:space="preserve">
+    <value>嘿</value>
+  </data>
+  <data name="Ricordati" xml:space="preserve">
+    <value>记得记录你的开支！</value>
+  </data>
+  <data name="Rimanente" xml:space="preserve">
+    <value>剩余</value>
+  </data>
+  <data name="TotaleQuestoMese" xml:space="preserve">
+    <value>本月总数：</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="MeseProssimo" xml:space="preserve">
+    <value>下个月见！</value>
+  </data>
+  <data name="NoAttivato" xml:space="preserve">
+    <value>你必须激活GPS！</value>
+  </data>
+  <data name="NonTrovo" xml:space="preserve">
+    <value>我不知道你在哪里！</value>
+  </data>
+  <data name="NoPermessi" xml:space="preserve">
+    <value>你必须给予许可！</value>
+  </data>
+  <data name="NoSupporto" xml:space="preserve">
+    <value>很抱歉，您的设备不支持此功能</value>
+  </data>
+  <data name="QuotaRaggiunta" xml:space="preserve">
+    <value>您已达到您的设定配额！</value>
+  </data>
+  <data name="QuotaScaduta" xml:space="preserve">
+    <value>这个月的配额涨了！你救了</value>
+  </data>
+  <data name="Categorie" xml:space="preserve">
+    <value>类别</value>
+  </data>
+  <data name="Lingue" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Accedi" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Autenticazione" xml:space="preserve">
+    <value>认证</value>
+  </data>
+  <data name="AutenticazioneFallita" xml:space="preserve">
+    <value>身份验证失败</value>
+  </data>
+  <data name="ErroreAutenticazione" xml:space="preserve">
+    <value>生物识别身份验证不可用或未配置。</value>
+  </data>
+  <data name="FissaQuota" xml:space="preserve">
+    <value>修复维度</value>
+  </data>
+  <data name="GestisciRisparmi" xml:space="preserve">
+    <value>但也要考虑你的储蓄！</value>
+  </data>
+  <data name="Inizia" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="RegistraSpese" xml:space="preserve">
+    <value>记录您的费用并跟踪它们！</value>
+  </data>
+  <data name="Sblocco" xml:space="preserve">
+    <value>用指纹解锁</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>退出</value>
+  </data>
+  <data name="SpesaAssegnata" xml:space="preserve">
+    <value>分配支出</value>
+  </data>
+  <data name="AccountEsistente" xml:space="preserve">
+    <value>已经有一个帐户与此电子邮件关联</value>
+  </data>
+  <data name="CMaiuscolo" xml:space="preserve">
+    <value>大写字符</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>您的代码是</value>
+  </data>
+  <data name="ConfermaPassword" xml:space="preserve">
+    <value>确认密码：</value>
+  </data>
+  <data name="CredenzialiErrate" xml:space="preserve">
+    <value>凭据不正确</value>
+  </data>
+  <data name="CSpeciale" xml:space="preserve">
+    <value>特殊角色</value>
+  </data>
+  <data name="DatiNonCorretti" xml:space="preserve">
+    <value>正确输入数据</value>
+  </data>
+  <data name="EmailValida" xml:space="preserve">
+    <value>请输入有效电子邮件</value>
+  </data>
+  <data name="IndirizzoValido" xml:space="preserve">
+    <value>请输入有效地址</value>
+  </data>
+  <data name="InserisciCodice" xml:space="preserve">
+    <value>输入已发送的代码：</value>
+  </data>
+  <data name="InserisciDatiRegistrazione" xml:space="preserve">
+    <value>输入数据</value>
+  </data>
+  <data name="Invia" xml:space="preserve">
+    <value>发送</value>
+  </data>
+  <data name="MostraPassword" xml:space="preserve">
+    <value>显示密码</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>一个数字</value>
+  </data>
+  <data name="PasswordDimenticata" xml:space="preserve">
+    <value>忘记密码？</value>
+  </data>
+  <data name="Registrazione" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="RichiestePassword" xml:space="preserve">
+    <value>密码必须至少包含：</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>登录</value>
+  </data>
+  <data name="Caratteri" xml:space="preserve">
+    <value>10-40个字符</value>
+  </data>
+  <data name="EmailInviata" xml:space="preserve">
+    <value>发送的电子邮件</value>
+  </data>
+  <data name="InserisciDatiCorretti" xml:space="preserve">
+    <value>正确输入数据</value>
+  </data>
+  <data name="NoConnessione" xml:space="preserve">
+    <value>无连接</value>
+  </data>
+  <data name="AccountNonPresente" xml:space="preserve">
+    <value>电子邮件不与任何帐户关联</value>
+  </data>
+</root>

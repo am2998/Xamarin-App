@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Totale" xml:space="preserve">
+    <value>ВСЕГО: {0:F2} €</value>
+  </data>
+  <data name="Categoria" xml:space="preserve">
+    <value>категория</value>
+  </data>
+  <data name="Cibo" xml:space="preserve">
+    <value>пища</value>
+  </data>
+  <data name="Trasporti" xml:space="preserve">
+    <value>транспорт</value>
+  </data>
+  <data name="Cultura" xml:space="preserve">
+    <value>культура</value>
+  </data>
+  <data name="Bellezza" xml:space="preserve">
+    <value>красота</value>
+  </data>
+  <data name="Regali" xml:space="preserve">
+    <value>Подарки</value>
+  </data>
+  <data name="Istruzione" xml:space="preserve">
+    <value>инструкция</value>
+  </data>
+  <data name="Divertimenti" xml:space="preserve">
+    <value>развлечение</value>
+  </data>
+  <data name="Altro" xml:space="preserve">
+    <value>другой</value>
+  </data>
+  <data name="Categoria_Display" xml:space="preserve">
+    <value>● {0:F3}</value>
+  </data>
+  <data name="Somma_Display" xml:space="preserve">
+    <value>{0:F2} €</value>
+  </data>
+  <data name="Spesa_Massima" xml:space="preserve">
+    <value>Самая высокая трата: {0:F2} €</value>
+  </data>
+  <data name="QUOTA" xml:space="preserve">
+    <value>КВОТА: {0:F2}</value>
+  </data>
+  <data name="FILTRA" xml:space="preserve">
+    <value>фильтр</value>
+  </data>
+  <data name="ELIMINA" xml:space="preserve">
+    <value>удалить</value>
+  </data>
+  <data name="EDITA" xml:space="preserve">
+    <value>редактировать</value>
+  </data>
+  <data name="ORDINA" xml:space="preserve">
+    <value>Сортировать по</value>
+  </data>
+  <data name="STATISTICHE" xml:space="preserve">
+    <value>статистика</value>
+  </data>
+  <data name="SOMMA" xml:space="preserve">
+    <value>сумма</value>
+  </data>
+  <data name="DATA" xml:space="preserve">
+    <value>дата</value>
+  </data>
+  <data name="AZZERA" xml:space="preserve">
+    <value>Сброс фильтров</value>
+  </data>
+  <data name="CONFERMA" xml:space="preserve">
+    <value>подтверждение</value>
+  </data>
+  <data name="ITALIANO" xml:space="preserve">
+    <value>итальянский</value>
+  </data>
+  <data name="INGLESE" xml:space="preserve">
+    <value>английский</value>
+  </data>
+  <data name="SPAGNOLO" xml:space="preserve">
+    <value>испанский</value>
+  </data>
+  <data name="TEMA" xml:space="preserve">
+    <value>тема</value>
+  </data>
+  <data name="LINGUA" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="INDIETRO" xml:space="preserve">
+    <value>Назад</value>
+  </data>
+  <data name="DONAZIONE" xml:space="preserve">
+    <value>Сделать пожертвование</value>
+  </data>
+  <data name="IMPOSTAZIONI" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="ASSISTENZA" xml:space="preserve">
+    <value>помощь</value>
+  </data>
+  <data name="INSERISCI_CIFRA" xml:space="preserve">
+    <value>Введите цифру!</value>
+  </data>
+  <data name="INSERISCI_CATEGORIA" xml:space="preserve">
+    <value>Введите категорию!</value>
+  </data>
+  <data name="SELEZIONA_SPESA" xml:space="preserve">
+    <value>Выберите тип расходов</value>
+  </data>
+  <data name="ANNULLA" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="SPESA_EFFETTUATA" xml:space="preserve">
+    <value>Произведенные расходы</value>
+  </data>
+  <data name="SPESA_DAEFFETTUARE" xml:space="preserve">
+    <value>Расходы, которые необходимо вынести</value>
+  </data>
+  <data name="NON" xml:space="preserve">
+    <value>Вы больше не можете вводить расходы!</value>
+  </data>
+  <data name="CAMBIARE" xml:space="preserve">
+    <value>Что вы хотите изменить?</value>
+  </data>
+  <data name="NOTA" xml:space="preserve">
+    <value>заметка</value>
+  </data>
+  <data name="NUOVA_SOMMA" xml:space="preserve">
+    <value>Новая сумма</value>
+  </data>
+  <data name="NUOVA_CATEGORIA" xml:space="preserve">
+    <value>Новая категория</value>
+  </data>
+  <data name="NUOVA_NOTA" xml:space="preserve">
+    <value>Редактирование заметки</value>
+  </data>
+  <data name="INSERISCI_QUOTA" xml:space="preserve">
+    <value>Введите измерение:</value>
+  </data>
+  <data name="CIFRA_NON" xml:space="preserve">
+    <value>Неправильная цифра!</value>
+  </data>
+  <data name="QUOTA_RAGGIUNTA" xml:space="preserve">
+    <value>Вы достигли своей квоты!</value>
+  </data>
+  <data name="NO_DATA" xml:space="preserve">
+    <value>Вы не можете ввести дату раньше, чем сегодня!</value>
+  </data>
+  <data name="CIFRA" xml:space="preserve">
+    <value>цифра:</value>
+  </data>
+  <data name="COSA" xml:space="preserve">
+    <value>Что Вы хотите делать?</value>
+  </data>
+  <data name="SEGNA" xml:space="preserve">
+    <value>Пометить как готовое</value>
+  </data>
+  <data name="AGGIUNGI_RISPARMIO" xml:space="preserve">
+    <value>Добавление сохранения</value>
+  </data>
+  <data name="MODIFICA_RISPARMIO" xml:space="preserve">
+    <value>Изменение экономии</value>
+  </data>
+  <data name="ELIMINA_SPESA" xml:space="preserve">
+    <value>Сократите расходы</value>
+  </data>
+  <data name="INSERISCI_SRISPARMIO" xml:space="preserve">
+    <value>Введите сумму Ваших сбережений</value>
+  </data>
+  <data name="ELIMINA_RISPARMIO" xml:space="preserve">
+    <value>Ликвидировать экономию</value>
+  </data>
+  <data name="CANCELLA" xml:space="preserve">
+    <value>ясный</value>
+  </data>
+  <data name="CAMBIARE_ANCORA" xml:space="preserve">
+    <value>Хотите изменить что-то большее?</value>
+  </data>
+  <data name="ModificaRisparmio" xml:space="preserve">
+    <value>Изменение экономии</value>
+  </data>
+  <data name="CIFRA_NON_A" xml:space="preserve">
+    <value>Фигура не допускается!</value>
+  </data>
+  <data name="NOTA:" xml:space="preserve">
+    <value>заметка:</value>
+  </data>
+  <data name="PUOI_NOTA" xml:space="preserve">
+    <value>Можно вставить заметку</value>
+  </data>
+  <data name="A/R" xml:space="preserve">
+    <value>Назначение / переназначение расходов</value>
+  </data>
+  <data name="NUOVA_SOMMA_QUOTA" xml:space="preserve">
+    <value>Введите новую сумму для своей доли</value>
+  </data>
+  <data name="CIFRA_CORRETTA" xml:space="preserve">
+    <value>Введите правильную цифру!</value>
+  </data>
+  <data name="GIORNI" xml:space="preserve">
+    <value>Дни недели </value>
+  </data>
+  <data name="VALUTA" xml:space="preserve">
+    <value>€ </value>
+  </data>
+  <data name="DAPAGARE" xml:space="preserve">
+    <value>платежеспособный</value>
+  </data>
+  <data name="INSERISCI" xml:space="preserve">
+    <value>входить</value>
+  </data>
+  <data name="LISTASPESE" xml:space="preserve">
+    <value>Список расходов</value>
+  </data>
+  <data name="NESSUNASPESA" xml:space="preserve">
+    <value>Без комиссий</value>
+  </data>
+  <data name="Abbigliamento" xml:space="preserve">
+    <value>одежда</value>
+  </data>
+  <data name="Salute" xml:space="preserve">
+    <value>Будьте здоровы</value>
+  </data>
+  <data name="SpeseIeri" xml:space="preserve">
+    <value>Вчерашние расходы</value>
+  </data>
+  <data name="SpeseOggi" xml:space="preserve">
+    <value>Сегодняшние расходы</value>
+  </data>
+  <data name="AScelta" xml:space="preserve">
+    <value>Ваш выбор</value>
+  </data>
+  <data name="GestisciQuota" xml:space="preserve">
+    <value>Управление квотой</value>
+  </data>
+  <data name="Giornaliera" xml:space="preserve">
+    <value>ежедневный</value>
+  </data>
+  <data name="Mensile" xml:space="preserve">
+    <value>ежемесячный</value>
+  </data>
+  <data name="CategorieAggiuntive" xml:space="preserve">
+    <value>Дополнительные категории</value>
+  </data>
+  <data name="AttivaMappa" xml:space="preserve">
+    <value>Активируйте местоположение расходов, а затем запишите расходы!</value>
+  </data>
+  <data name="RisparmiRimanente" xml:space="preserve">
+    <value>Экономия - Остаток</value>
+  </data>
+  <data name="SpesaDaSostenere" xml:space="preserve">
+    <value>Расходы, которые необходимо понести</value>
+  </data>
+  <data name="DataScadenza" xml:space="preserve">
+    <value>Срок годности</value>
+  </data>
+  <data name="Dona" xml:space="preserve">
+    <value>Дает</value>
+  </data>
+  <data name="GiorniRimanenti" xml:space="preserve">
+    <value>Оставшиеся дни</value>
+  </data>
+  <data name="Ieri" xml:space="preserve">
+    <value>Вчера</value>
+  </data>
+  <data name="Localizzazione" xml:space="preserve">
+    <value>локализация</value>
+  </data>
+  <data name="MessaggioDonazione" xml:space="preserve">
+    <value>Если вы хотите поддержать проект, сделайте пожертвование здесь</value>
+  </data>
+  <data name="NumeroSpese" xml:space="preserve">
+    <value>Количество расходов</value>
+  </data>
+  <data name="Oggi" xml:space="preserve">
+    <value>Сегодня</value>
+  </data>
+  <data name="Orario" xml:space="preserve">
+    <value>Время уведомления</value>
+  </data>
+  <data name="Quanto" xml:space="preserve">
+    <value>Сколько вы планируете потратить сегодня?</value>
+  </data>
+  <data name="QuotaLibera" xml:space="preserve">
+    <value>Бесплатная квота</value>
+  </data>
+  <data name="QuotaMensile" xml:space="preserve">
+    <value>Ежемесячная плата</value>
+  </data>
+  <data name="Rimanenza" xml:space="preserve">
+    <value>Доступный остаток</value>
+  </data>
+  <data name="Risparmio" xml:space="preserve">
+    <value>спасительный</value>
+  </data>
+  <data name="Salva" xml:space="preserve">
+    <value>салют</value>
+  </data>
+  <data name="SpesaMassima" xml:space="preserve">
+    <value>Максимальные затраты</value>
+  </data>
+  <data name="SpeseMese" xml:space="preserve">
+    <value>Расходы за этот месяц</value>
+  </data>
+  <data name="SpeseMesePrecedente" xml:space="preserve">
+    <value>Расходы за прошлый месяц</value>
+  </data>
+  <data name="SpeseSettimana" xml:space="preserve">
+    <value>Расходы на этой неделе</value>
+  </data>
+  <data name="TettoSpesa" xml:space="preserve">
+    <value>Верхний предел расходов</value>
+  </data>
+  <data name="TotaleRisparmi" xml:space="preserve">
+    <value>Общая экономия:</value>
+  </data>
+  <data name="TotaleSpese" xml:space="preserve">
+    <value>Общие расходы: </value>
+  </data>
+  <data name="BudgetOggi" xml:space="preserve">
+    <value>Сегодняшний бюджет</value>
+  </data>
+  <data name="Hey" xml:space="preserve">
+    <value>Эй</value>
+  </data>
+  <data name="Ricordati" xml:space="preserve">
+    <value>Не забудьте зафиксировать свои расходы!</value>
+  </data>
+  <data name="Rimanente" xml:space="preserve">
+    <value>остальной</value>
+  </data>
+  <data name="TotaleQuestoMese" xml:space="preserve">
+    <value>Итого за этот месяц:</value>
+  </data>
+  <data name="Errore" xml:space="preserve">
+    <value>ошибка</value>
+  </data>
+  <data name="MeseProssimo" xml:space="preserve">
+    <value>до встречи в следующем месяце!</value>
+  </data>
+  <data name="NoAttivato" xml:space="preserve">
+    <value>Вы должны активировать gps!</value>
+  </data>
+  <data name="NonTrovo" xml:space="preserve">
+    <value>Я не могу понять, где ты найди!</value>
+  </data>
+  <data name="NoPermessi" xml:space="preserve">
+    <value>Вы должны дать разрешение!</value>
+  </data>
+  <data name="NoSupporto" xml:space="preserve">
+    <value>Извините, ваше устройство не поддерживает эту функцию</value>
+  </data>
+  <data name="QuotaRaggiunta" xml:space="preserve">
+    <value>Вы достигли установленной квоты!</value>
+  </data>
+  <data name="QuotaScaduta" xml:space="preserve">
+    <value>Квота этого месяца выросла! Вы сохранили</value>
+  </data>
+  <data name="Categorie" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="Lingue" xml:space="preserve">
+    <value>Языки</value>
+  </data>
+  <data name="Accedi" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="Autenticazione" xml:space="preserve">
+    <value>аутентификация</value>
+  </data>
+  <data name="AutenticazioneFallita" xml:space="preserve">
+    <value>Ошибка аутентификации</value>
+  </data>
+  <data name="ErroreAutenticazione" xml:space="preserve">
+    <value>Биометрическая аутентификация недоступна или не настроена.</value>
+  </data>
+  <data name="FissaQuota" xml:space="preserve">
+    <value>Исправление измерения</value>
+  </data>
+  <data name="GestisciRisparmi" xml:space="preserve">
+    <value>Но также подумайте о своих сбережениях!</value>
+  </data>
+  <data name="Inizia" xml:space="preserve">
+    <value>начало</value>
+  </data>
+  <data name="RegistraSpese" xml:space="preserve">
+    <value>Записывайте свои расходы и отслеживайте их!</value>
+  </data>
+  <data name="Sblocco" xml:space="preserve">
+    <value>Разблокировка с помощью отпечатка пальца</value>
+  </data>
+  <data name="Esci" xml:space="preserve">
+    <value>выход</value>
+  </data>
+  <data name="SpesaAssegnata" xml:space="preserve">
+    <value>Выделенные расходы</value>
+  </data>
+  <data name="AccountEsistente" xml:space="preserve">
+    <value>Уже есть учетная запись, связанная с этим письмом</value>
+  </data>
+  <data name="CMaiuscolo" xml:space="preserve">
+    <value>Символ верхнего регистра</value>
+  </data>
+  <data name="Codice" xml:space="preserve">
+    <value>Ваш код</value>
+  </data>
+  <data name="ConfermaPassword" xml:space="preserve">
+    <value>Подтвердите пароль:</value>
+  </data>
+  <data name="CredenzialiErrate" xml:space="preserve">
+    <value>Учетные данные неверны</value>
+  </data>
+  <data name="CSpeciale" xml:space="preserve">
+    <value>Специальный символ</value>
+  </data>
+  <data name="DatiNonCorretti" xml:space="preserve">
+    <value>Введите данные правильно</value>
+  </data>
+  <data name="EmailValida" xml:space="preserve">
+    <value>Пожалуйста, введите действительный адрес электронной почты</value>
+  </data>
+  <data name="IndirizzoValido" xml:space="preserve">
+    <value>Пожалуйста, введите действительный адрес</value>
+  </data>
+  <data name="InserisciCodice" xml:space="preserve">
+    <value>введите отправленный код:</value>
+  </data>
+  <data name="InserisciDatiRegistrazione" xml:space="preserve">
+    <value>Ввод данных</value>
+  </data>
+  <data name="Invia" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+  <data name="MostraPassword" xml:space="preserve">
+    <value>Показать пароль</value>
+  </data>
+  <data name="Numero" xml:space="preserve">
+    <value>ряд</value>
+  </data>
+  <data name="PasswordDimenticata" xml:space="preserve">
+    <value>Забыли пароль?</value>
+  </data>
+  <data name="Registrazione" xml:space="preserve">
+    <value>зарегистрированный</value>
+  </data>
+  <data name="RichiestePassword" xml:space="preserve">
+    <value>Пароль должен содержать как минимум:</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Войти</value>
+  </data>
+  <data name="Caratteri" xml:space="preserve">
+    <value>10-40 символов</value>
+  </data>
+  <data name="EmailInviata" xml:space="preserve">
+    <value>Письмо отправлено</value>
+  </data>
+  <data name="InserisciDatiCorretti" xml:space="preserve">
+    <value>Введите данные правильно</value>
+  </data>
+  <data name="NoConnessione" xml:space="preserve">
+    <value>отсутствие соединения</value>
+  </data>
+  <data name="AccountNonPresente" xml:space="preserve">
+    <value>Адрес электронной почты не связан с какой-либо учетной записью</value>
+  </data>
+</root>
